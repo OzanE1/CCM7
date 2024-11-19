@@ -6,7 +6,7 @@
 	(paper "A4" portrait)
 	(title_block
 		(title "BMP388")
-		(date "2024-09-28")
+		(date "2024-11-19")
 		(rev "Ozan E.")
 	)
 	(lib_symbols

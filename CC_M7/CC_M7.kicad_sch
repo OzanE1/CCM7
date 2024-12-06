@@ -1,0 +1,251 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "20c3bbae-00c6-470e-8b69-dc0f665257a3")
+	(paper "A4" portrait)
+	(title_block
+		(title "CC M7")
+		(company "YENIAY")
+		(comment 1 "Stm32 F7 Control Cart")
+	)
+	(lib_symbols)
+	(text "USB Port\nPWM Outputs\nUART,I2C,CAN Pins\nGPS Pins\n2X20 RASBERRY PI 0 COMPATIBLE PINS"
+		(exclude_from_sim no)
+		(at 125.476 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "10f8a344-e79f-4029-8400-0934355e6caa")
+	)
+	(text "ESP32-C3 MINI1"
+		(exclude_from_sim no)
+		(at 64.516 122.174 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "34b5dcca-8b9b-4691-ae9d-1a39e9464a73")
+	)
+	(text "STM32H743VIT6 Pins Connections\nVoltage Read\nFilters\nStm32h743 Requirments"
+		(exclude_from_sim no)
+		(at 56.896 52.578 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "362f98c9-caeb-4b3a-b215-9558c44ff642")
+	)
+	(text "IMU:BNI088\nPressure Sensor:BMP388\nCompass:BMM150\n"
+		(exclude_from_sim no)
+		(at 125.476 91.694 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e47140fa-726c-45f9-86a4-79a584afdd7b")
+	)
+	(sheet
+		(at 57.15 38.1)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "07f6f905-59c0-438f-a556-b28e89ace803")
+		(property "Sheetname" "ControlComputer"
+			(at 57.15 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ControlComputer.kicad_sch"
+			(at 57.15 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CC_M7"
+				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 56.515 110.49)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6232e485-57e6-4462-8bc5-32fc0a8281b4")
+		(property "Sheetname" "ESP32-C3"
+			(at 56.515 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32-C3.kicad_sch"
+			(at 56.515 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CC_M7"
+				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 38.1)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8b74e690-9be2-433b-8a0a-5eb3a275b61f")
+		(property "Sheetname" "Connections"
+			(at 125.73 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Connections.kicad_sch"
+			(at 125.73 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CC_M7"
+				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 77.47)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b4ae7b3b-cd15-4dc2-a519-be49b0fe3ceb")
+		(property "Sheetname" "Sensors"
+			(at 125.73 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensors.kicad_sch"
+			(at 125.73 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CC_M7"
+				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 77.47)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d5e2a406-9a7f-4b4d-9070-1dc6f1aabbf7")
+		(property "Sheetname" "Power"
+			(at 57.15 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 57.15 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CC_M7"
+				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

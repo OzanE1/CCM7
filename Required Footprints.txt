@@ -1,0 +1,14 @@
+Voltage Regulator : TPS82140SILR ---> https://www.snapeda.com/parts/TPS82140SILR/Texas%20Instruments/view-part/
+
+BMI088 (ivme ölçer) : https://www.snapeda.com/parts/BMI088/Bosch%20Sensortec/view-part/
+
+BMP388 (barometre) : https://www.snapeda.com/parts/BMP388/Bosch%20Sensortec/view-part/
+
+BMM150 (pusula) : https://www.snapeda.com/parts/BMM150/Bosch%20Sensortec/view-part/
+
+
+
+
+
+
+

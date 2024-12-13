@@ -10,9 +10,19 @@
 		(comment 1 "Stm32 F7 Control Cart")
 	)
 	(lib_symbols)
+	(text "12V to 5V"
+		(exclude_from_sim no)
+		(at 116.332 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0305fa9c-546d-437b-b666-e228fa4ddec0")
+	)
 	(text "USB Port\nPWM Outputs\nUART,I2C,CAN Pins\nGPS Pins\n2X20 RASBERRY PI 0 COMPATIBLE PINS"
 		(exclude_from_sim no)
-		(at 125.476 53.594 0)
+		(at 109.474 128.524 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -23,7 +33,7 @@
 	)
 	(text "ESP32-C3 MINI1"
 		(exclude_from_sim no)
-		(at 64.516 122.174 0)
+		(at 116.84 232.156 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -33,7 +43,7 @@
 	)
 	(text "STM32H743VIT6 Pins Connections\nVoltage Read\nFilters\nStm32h743 Requirments"
 		(exclude_from_sim no)
-		(at 56.896 52.578 0)
+		(at 109.22 38.354 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +54,7 @@
 	)
 	(text "IMU:BNI088\nPressure Sensor:BMP388\nCompass:BMM150\n"
 		(exclude_from_sim no)
-		(at 125.476 91.694 0)
+		(at 110.236 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,8 +64,8 @@
 		(uuid "e47140fa-726c-45f9-86a4-79a584afdd7b")
 	)
 	(sheet
-		(at 57.15 38.1)
-		(size 12.7 3.81)
+		(at 29.21 20.32)
+		(size 64.77 35.56)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -66,7 +76,7 @@
 		)
 		(uuid "07f6f905-59c0-438f-a556-b28e89ace803")
 		(property "Sheetname" "ControlComputer"
-			(at 57.15 37.3884 0)
+			(at 29.21 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -75,7 +85,7 @@
 			)
 		)
 		(property "Sheetfile" "ControlComputer.kicad_sch"
-			(at 57.15 42.4946 0)
+			(at 29.21 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -92,8 +102,8 @@
 		)
 	)
 	(sheet
-		(at 56.515 110.49)
-		(size 12.7 3.81)
+		(at 30.988 213.868)
+		(size 64.262 35.052)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -104,7 +114,7 @@
 		)
 		(uuid "6232e485-57e6-4462-8bc5-32fc0a8281b4")
 		(property "Sheetname" "ESP32-C3"
-			(at 56.515 109.7784 0)
+			(at 30.988 213.1564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -113,7 +123,7 @@
 			)
 		)
 		(property "Sheetfile" "ESP32-C3.kicad_sch"
-			(at 56.515 114.8846 0)
+			(at 30.988 249.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,8 +140,8 @@
 		)
 	)
 	(sheet
-		(at 125.73 38.1)
-		(size 12.7 3.81)
+		(at 29.718 114.808)
+		(size 64.262 35.052)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -142,7 +152,7 @@
 		)
 		(uuid "8b74e690-9be2-433b-8a0a-5eb3a275b61f")
 		(property "Sheetname" "Connections"
-			(at 125.73 37.3884 0)
+			(at 29.718 114.0964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -151,7 +161,7 @@
 			)
 		)
 		(property "Sheetfile" "Connections.kicad_sch"
-			(at 125.73 42.4946 0)
+			(at 29.718 150.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -168,8 +178,8 @@
 		)
 	)
 	(sheet
-		(at 125.73 77.47)
-		(size 12.7 3.81)
+		(at 29.718 163.068)
+		(size 64.262 35.052)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -180,7 +190,7 @@
 		)
 		(uuid "b4ae7b3b-cd15-4dc2-a519-be49b0fe3ceb")
 		(property "Sheetname" "Sensors"
-			(at 125.73 76.7584 0)
+			(at 29.718 162.3564 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -189,7 +199,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 125.73 81.8646 0)
+			(at 29.718 198.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -206,8 +216,8 @@
 		)
 	)
 	(sheet
-		(at 57.15 77.47)
-		(size 12.7 3.81)
+		(at 29.21 67.31)
+		(size 64.77 35.56)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -218,7 +228,7 @@
 		)
 		(uuid "d5e2a406-9a7f-4b4d-9070-1dc6f1aabbf7")
 		(property "Sheetname" "Power"
-			(at 57.15 76.7584 0)
+			(at 29.21 66.5984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -227,7 +237,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 57.15 81.8646 0)
+			(at 29.21 103.4546 0)
 			(effects
 				(font
 					(size 1.27 1.27)

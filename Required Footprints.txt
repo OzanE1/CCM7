@@ -6,7 +6,7 @@ BMP388 (barometre) ---> https://www.snapeda.com/parts/BMP388/Bosch%20Sensortec/v
 
 BMM150 (pusula) ---> https://www.snapeda.com/parts/BMM150/Bosch%20Sensortec/view-part/
 
-
+nRF21540 (sinyal yükseltici) https://www.snapeda.com/parts/nRF21540-QDAA-R7/Nordic%20Semiconductor/view-part/
 
 
 

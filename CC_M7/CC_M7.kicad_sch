@@ -31,7 +31,7 @@
 		)
 		(uuid "10f8a344-e79f-4029-8400-0934355e6caa")
 	)
-	(text "ESP32-C3 MINI1"
+	(text "Telemetry"
 		(exclude_from_sim no)
 		(at 116.84 232.156 0)
 		(effects
@@ -102,8 +102,8 @@
 		)
 	)
 	(sheet
-		(at 30.988 213.868)
-		(size 64.262 35.052)
+		(at 29.21 215.265)
+		(size 64.77 34.925)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -112,9 +112,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "6232e485-57e6-4462-8bc5-32fc0a8281b4")
-		(property "Sheetname" "ESP32-C3"
-			(at 30.988 213.1564 0)
+		(uuid "7ffac293-9e03-4b17-b08e-2a6334cbc734")
+		(property "Sheetname" "RF Telemetry"
+			(at 29.21 214.5534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -122,8 +122,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ESP32-C3.kicad_sch"
-			(at 30.988 249.5046 0)
+		(property "Sheetfile" "RF Telemetry.kicad_sch"
+			(at 29.21 250.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)

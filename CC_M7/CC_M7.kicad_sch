@@ -140,7 +140,7 @@
 		)
 	)
 	(sheet
-		(at 29.718 114.808)
+		(at 29.083 114.808)
 		(size 64.262 35.052)
 		(fields_autoplaced yes)
 		(stroke
@@ -152,7 +152,7 @@
 		)
 		(uuid "8b74e690-9be2-433b-8a0a-5eb3a275b61f")
 		(property "Sheetname" "Connections"
-			(at 29.718 114.0964 0)
+			(at 29.083 114.0964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -161,7 +161,7 @@
 			)
 		)
 		(property "Sheetfile" "Connections.kicad_sch"
-			(at 29.718 150.4446 0)
+			(at 29.083 150.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)

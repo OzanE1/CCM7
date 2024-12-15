@@ -3672,18 +3672,6 @@
 		)
 		(uuid 7b8775f0-cdfe-48ff-a0e0-c68e6441527c)
 	)
-	(rectangle
-		(start 12.7 216.535)
-		(end 106.68 250.825)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 7d0ec394-6dc8-4232-b86f-08265aae102b)
-	)
 	(text "PPM CONN"
 		(exclude_from_sim no)
 		(at 88.9 214.63 0)

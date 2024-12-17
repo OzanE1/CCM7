@@ -1,4 +1,4 @@
-TPS82140SILR (voltage regulator 12 to 5)---> https://www.snapeda.com/parts/TPS82140SILR/Texas%20Instruments/view-part/
+TPS54202DDCR (voltage regulator 12 to 5)---> https://www.snapeda.com/parts/TPS54202DDCR/Texas%20Instruments/view-part/
 
 BMI088 (ivme ölçer) ---> https://www.snapeda.com/parts/BMI088/Bosch%20Sensortec/view-part/
 

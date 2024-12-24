@@ -4775,16 +4775,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 168.91) (xy 27.94 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0959be17-a4c5-490a-b969-f9de69c881c9")
-	)
-	(wire
-		(pts
 			(xy 104.14 140.97) (xy 104.14 142.24)
 		)
 		(stroke
@@ -4802,16 +4792,6 @@
 			(type default)
 		)
 		(uuid "14620da8-7501-4e6f-b6bd-5e4fbe6beb1a")
-	)
-	(wire
-		(pts
-			(xy 26.67 171.45) (xy 27.94 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15dc79e9-3c9f-4d44-a7eb-e5b35b8b66db")
 	)
 	(wire
 		(pts
@@ -6398,6 +6378,16 @@
 		)
 		(uuid "602ab652-e532-424f-acaa-7fc4831c97b1")
 	)
+	(text "*SWO pini kullanılmamış"
+		(exclude_from_sim no)
+		(at 99.06 227.076 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6b24c5f9-6c54-43be-b41a-bdcf3763ba68")
+	)
 	(text "OSC STM32"
 		(exclude_from_sim no)
 		(at 181.61 122.174 0)
@@ -6473,6 +6463,16 @@
 			(justify left)
 		)
 		(uuid "b0f28fdb-614f-48fa-ac89-0c67239d8b13")
+	)
+	(text "* PB14 yanlış"
+		(exclude_from_sim no)
+		(at 94.234 223.266 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b5e510ad-af53-422f-95a4-d30c3e813e8a")
 	)
 	(text "???"
 		(exclude_from_sim no)
@@ -6835,7 +6835,7 @@
 	)
 	(global_label "HSE_IN"
 		(shape input)
-		(at 26.67 168.91 180)
+		(at 27.94 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6845,7 +6845,7 @@
 		)
 		(uuid "239e5c4c-3f5d-4c6d-8ae6-150ab576c513")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.0929 168.91 0)
+			(at 18.3629 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7207,28 +7207,6 @@
 			)
 		)
 	)
-	(global_label "SPI3_CSN"
-		(shape input)
-		(at 27.94 179.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "51c7d194-783b-4ba1-8664-8ce1cae02fc9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.8834 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BOOT0"
 		(shape input)
 		(at 27.94 115.57 180)
@@ -7493,6 +7471,28 @@
 			)
 		)
 	)
+	(global_label "TRX1_CTS"
+		(shape input)
+		(at 71.12 191.77 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9350e53-f497-4166-9805-1036d6126106")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.1765 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI3_SCK"
 		(shape input)
 		(at 71.12 222.25 0)
@@ -7605,7 +7605,7 @@
 	)
 	(global_label "HSE_OUT"
 		(shape input)
-		(at 26.67 171.45 180)
+		(at 27.94 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7615,7 +7615,7 @@
 		)
 		(uuid "bb1807d3-2e2c-4dd5-acc5-3e6563ee4cf3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.3996 171.45 0)
+			(at 16.6696 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9272,7 +9272,7 @@
 				)
 			)
 		)
-		(property "Value" "25MHz"
+		(property "Value" "32MHz"
 			(at 159.258 96.012 0)
 			(effects
 				(font

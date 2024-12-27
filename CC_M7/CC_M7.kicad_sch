@@ -12,7 +12,7 @@
 	(lib_symbols)
 	(text "15V to 5V"
 		(exclude_from_sim no)
-		(at 34.798 69.596 0)
+		(at 34.544 69.596 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21,6 +21,18 @@
 			)
 		)
 		(uuid "0305fa9c-546d-437b-b666-e228fa4ddec0")
+	)
+	(text "5V to 3.3V"
+		(exclude_from_sim no)
+		(at 34.798 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "094fffe6-7d51-4dc1-bc33-e23fa805d532")
 	)
 	(text "USB Port\nPWM Outputs\nUART,I2C,CAN Pins\nGPS Pins\n2X20 RASBERRY PI 0 COMPATIBLE PINS"
 		(exclude_from_sim no)
@@ -60,9 +72,9 @@
 		)
 		(uuid "362f98c9-caeb-4b3a-b215-9558c44ff642")
 	)
-	(text "IMU:BNI088\nPressure Sensor:BMP388\nCompass:BMM150\n"
+	(text "IMU:BMI088\nPressure Sensor:BMP388\nCompass:BMM150\nEEPROM:24AAOIT\n"
 		(exclude_from_sim no)
-		(at 30.48 167.386 0)
+		(at 30.48 168.656 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -4260,6 +4260,18 @@
 		)
 		(uuid 9c9b0ea6-4eb8-454d-8546-8e1483510489)
 	)
+	(text "Kontrol Yapılacak!!!!!"
+		(exclude_from_sim no)
+		(at 69.85 139.7 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "022cfc25-faa5-47d3-9d7e-cd710b6a972d")
+	)
 	(text "nRF21540"
 		(exclude_from_sim no)
 		(at 186.69 218.44 0)

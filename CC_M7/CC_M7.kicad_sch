@@ -34,7 +34,7 @@
 		)
 		(uuid "094fffe6-7d51-4dc1-bc33-e23fa805d532")
 	)
-	(text "USB Port\nPWM Outputs\nUART,I2C,CAN Pins\nGPS Pins\n2X20 RASBERRY PI 0 COMPATIBLE PINS"
+	(text "USB Port\nPWM Outputs\nUART,I2C\nGPS Pins\n2X20 RASBERRY PI 0 COMPATIBLE PINS"
 		(exclude_from_sim no)
 		(at 29.972 120.904 0)
 		(effects

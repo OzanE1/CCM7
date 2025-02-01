@@ -2645,6 +2645,18 @@
 		)
 		(uuid "fb033b67-7ae7-454e-bdd2-1d3e9b747601")
 	)
+	(rectangle
+		(start 12.7 12.7)
+		(end 87.63 29.21)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6bcd6cb9-3ec9-43cb-a9b3-8924aa2bd221)
+	)
 	(text "The capacitors will be close to the VDD and VDDIO pins.\nI²C address bit 0: SDO --> GND: '0'; VDDIO: '1'\nI²C address bit 1: CSB --> GND: '0'; VDDIO: '1'\n"
 		(exclude_from_sim no)
 		(at 68.58 223.52 0)
@@ -2743,6 +2755,18 @@
 			(justify left)
 		)
 		(uuid "e905f245-59c6-44da-9ca1-9557f1265933")
+	)
+	(text "I2C adresleri yazılacak"
+		(exclude_from_sim no)
+		(at 48.26 20.32 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "f104d0e5-1d15-46c7-898b-a06f5c207b19")
 	)
 	(global_label "I2C1_SCL"
 		(shape input)

@@ -3103,7 +3103,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 152.4 41.91 0)
 			(effects
 				(font
@@ -3700,7 +3700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 142.24 41.91 0)
 			(effects
 				(font
@@ -4178,7 +4178,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT-23-5_MC_MCH"
+		(property "Footprint" ""
 			(at 27.94 254.508 0)
 			(effects
 				(font
@@ -4950,7 +4950,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 128.27 195.58 0)
 			(effects
 				(font
@@ -5250,7 +5250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 140.97 127 0)
 			(effects
 				(font
@@ -5319,7 +5319,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 138.43 195.58 0)
 			(effects
 				(font
@@ -5388,7 +5388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 129.54 127 0)
 			(effects
 				(font

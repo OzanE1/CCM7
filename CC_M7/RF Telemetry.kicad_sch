@@ -6086,7 +6086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 114.3 191.77 0)
 			(effects
 				(font
@@ -6225,7 +6225,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 177.8 132.08 0)
 			(effects
 				(font
@@ -6616,7 +6616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 173.99 64.77 0)
 			(effects
 				(font
@@ -7024,7 +7024,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 177.8 123.19 0)
 			(effects
 				(font
@@ -7499,7 +7499,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 132.08 176.53 0)
 			(effects
 				(font
@@ -7633,7 +7633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 173.99 69.85 0)
 			(effects
 				(font
@@ -7838,7 +7838,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 171.45 90.17 0)
 			(effects
 				(font
@@ -7912,7 +7912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 173.99 59.69 0)
 			(effects
 				(font
@@ -8045,7 +8045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 173.99 74.93 0)
 			(effects
 				(font
@@ -8385,7 +8385,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 72.39 168.91 0)
 			(effects
 				(font
@@ -9557,7 +9557,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 121.92 176.53 0)
 			(effects
 				(font

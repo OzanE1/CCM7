@@ -4468,7 +4468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 123.19 71.12 0)
 			(effects
 				(font
@@ -4735,7 +4735,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical"
 			(at 55.88 52.07 0)
 			(effects
 				(font
@@ -4983,7 +4983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 163.83 29.21 0)
 			(effects
 				(font
@@ -5186,7 +5186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 123.19 50.8 0)
 			(effects
 				(font
@@ -5323,7 +5323,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
 			(at 143.51 158.75 0)
 			(effects
 				(font
@@ -5594,7 +5594,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_Micro-B_Wuerth_629105150521"
 			(at 58.42 115.57 0)
 			(effects
 				(font
@@ -5872,7 +5872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 163.83 71.12 0)
 			(effects
 				(font
@@ -6140,7 +6140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 123.19 29.21 0)
 			(effects
 				(font
@@ -6607,7 +6607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 163.83 50.8 0)
 			(effects
 				(font
@@ -6678,7 +6678,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
 			(at 52.07 156.21 0)
 			(effects
 				(font
@@ -6752,7 +6752,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
 			(at 140.97 113.03 0)
 			(effects
 				(font

@@ -3900,6 +3900,18 @@
 		)
 		(uuid "8c171b08-4bfd-4fb1-8fcf-32b48b455654")
 	)
+	(text "FOOTPRINT WILL BE CHANGED!!!!!"
+		(exclude_from_sim no)
+		(at 152.4 177.8 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "b3e59143-1e02-4b8c-9a56-9bce8aa6f2c6")
+	)
 	(text "BMM150"
 		(exclude_from_sim no)
 		(at 180.34 234.95 0)
@@ -5677,7 +5689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.14 191.77 0)
 			(effects
 				(font

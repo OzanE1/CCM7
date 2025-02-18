@@ -12085,7 +12085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "SKRPABE010:SW_SKRPABE010"
+		(property "Footprint" "SW_SKRPABE010:SW_SKRPABE010"
 			(at 44.704 53.34 0)
 			(effects
 				(font

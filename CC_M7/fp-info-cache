@@ -1,4 +1,4 @@
-24203146669028630
+24204860617255765
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65267,6 +65267,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LPRS_SMA_CONNECTOR
+LPRS_SMA_CONNECTOR
+
+
+0
+5
+5
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -89907,13 +89914,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
-SMA
-LPRS_SMA_CONNECTOR
+SW_SKRPABE010
+SW_SKRPABE010
 
 
 0
-5
-5
+4
+4
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf

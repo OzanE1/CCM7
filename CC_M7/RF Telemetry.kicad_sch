@@ -5886,7 +5886,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SMA_CONNECTOR:LPRS_SMA_CONNECTOR"
+		(property "Footprint" "LPRS_SMA_CONNECTOR:LPRS_SMA_CONNECTOR"
 			(at 153.67 171.45 0)
 			(effects
 				(font

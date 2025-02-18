@@ -4272,22 +4272,22 @@
 	)
 	(global_label "I2C1_IRQ1"
 		(shape input)
-		(at 148.59 143.51 0)
+		(at 148.59 143.51 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "bac83fe2-880b-4c16-8df4-b6cca0638b79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.2514 143.51 0)
+			(at 148.59 156.1714 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)

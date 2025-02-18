@@ -6616,7 +6616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 173.99 64.77 0)
 			(effects
 				(font
@@ -7633,7 +7633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 173.99 69.85 0)
 			(effects
 				(font
@@ -7912,7 +7912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 173.99 59.69 0)
 			(effects
 				(font
@@ -8045,7 +8045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 173.99 74.93 0)
 			(effects
 				(font

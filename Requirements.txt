@@ -8,6 +8,7 @@ BMM150 (pusula) ---> https://www.snapeda.com/parts/BMM150/Bosch%20Sensortec/view
 
 nRF21540 (sinyal yükseltici) https://www.snapeda.com/parts/nRF21540-QDAA-R7/Nordic%20Semiconductor/view-part/
 
+MBR120VLSFT1G ----> https://www.snapeda.com/parts/MBR120VLSFT1G/ON%20Semiconductor/view-part/?welcome=home&ref=search&t=MBR120VLSFT1G
 
 
 

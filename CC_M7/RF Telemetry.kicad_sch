@@ -4272,6 +4272,18 @@
 		)
 		(uuid "022cfc25-faa5-47d3-9d7e-cd710b6a972d")
 	)
+	(text "(usb trace spacing = 0.2032)!!!!"
+		(exclude_from_sim no)
+		(at 93.345 227.965 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "2cda1a81-c962-44ed-9e8e-4cc57b6f57ce")
+	)
 	(text "nRF21540"
 		(exclude_from_sim no)
 		(at 186.69 218.44 0)
@@ -7771,7 +7783,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 181.61 97.79 0)
 			(effects
 				(font
@@ -9422,7 +9434,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 162.56 97.79 0)
 			(effects
 				(font

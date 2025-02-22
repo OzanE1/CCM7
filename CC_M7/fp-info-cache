@@ -1,4 +1,4 @@
-24204860617255765
+24208341055432328
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54802,6 +54802,13 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
+DIOM3616X98N
+DIOM3616X98N
+
+
+0
+2
+2
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -65274,6 +65281,13 @@ LPRS_SMA_CONNECTOR
 0
 5
 5
+MBR230LSFT1G
+SODFL3619X98N
+
+
+0
+2
+2
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

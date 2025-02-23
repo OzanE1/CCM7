@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -8,7 +8,10 @@
       "",
       "GND",
       "+3.3V",
-      "+5V"
+      "+5V",
+      "I2C1_SCL",
+      "CAN2_TX",
+      "CAN2_RX"
     ],
     "high_contrast_mode": 1,
     "net_color_mode": 1,
@@ -17,7 +20,7 @@
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.28999999165534973
+      "zones": 0.05999999865889549
     },
     "selection_filter": {
       "dimensions": true,

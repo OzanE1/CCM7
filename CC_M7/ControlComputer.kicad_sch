@@ -6500,6 +6500,18 @@
 		)
 		(uuid "9ac1856b-af7d-49e6-8bb0-e6202ae56515")
 	)
+	(text "KRISTAL KAPASITORLERI DEGISECEK\n"
+		(exclude_from_sim no)
+		(at 226.06 104.14 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "a4ed75fa-18ea-4163-906a-fe3c0fca8f0f")
+	)
 	(text "LEDS"
 		(exclude_from_sim no)
 		(at 189.23 194.31 0)

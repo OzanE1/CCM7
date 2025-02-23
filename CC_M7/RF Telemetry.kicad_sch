@@ -4333,6 +4333,18 @@
 		)
 		(uuid "e60e842b-dd26-45d6-a97b-697427663c92")
 	)
+	(text "KRISTAL KAPASITORLERI DEGISECEK\n"
+		(exclude_from_sim no)
+		(at 232.41 99.695 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "eb5dbe19-a15a-49c1-9097-73a54c6720ef")
+	)
 	(text "SWO"
 		(exclude_from_sim no)
 		(at 194.31 80.01 0)

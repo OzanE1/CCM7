@@ -2048,6 +2048,128 @@
 				)
 			)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -2595,6 +2717,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.805 120.65) (xy 86.995 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4596e864-62d0-499d-a975-fc6bc794e34b")
+	)
+	(wire
+		(pts
 			(xy 59.69 156.21) (xy 57.15 156.21)
 		)
 		(stroke
@@ -2632,6 +2764,16 @@
 			(type default)
 		)
 		(uuid "5d467a92-8101-4c89-97d3-bd7f4a380bb6")
+	)
+	(wire
+		(pts
+			(xy 90.805 118.11) (xy 90.805 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6004f613-9788-4664-a106-83701d9ed739")
 	)
 	(wire
 		(pts
@@ -3045,6 +3187,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.805 109.22) (xy 90.805 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f776b57c-7f37-48dd-9b4b-89ad8b3a6ba5")
+	)
+	(wire
+		(pts
 			(xy 50.8 49.53) (xy 35.56 49.53)
 		)
 		(stroke
@@ -3333,6 +3485,28 @@
 			)
 		)
 	)
+	(global_label "UART4_TX"
+		(shape input)
+		(at 63.5 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08ab0d99-da82-4458-be91-1f0c5aa3318f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.4961 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN2_RX"
 		(shape input)
 		(at 50.8 44.45 180)
@@ -3531,28 +3705,6 @@
 			)
 		)
 	)
-	(global_label "UART4_TX"
-		(shape input)
-		(at 63.5 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "574f3a58-b727-4c38-ae9c-5c1dc66b2820")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.4961 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PA0"
 		(shape input)
 		(at 63.5 41.91 0)
@@ -3641,6 +3793,28 @@
 			)
 		)
 	)
+	(global_label "USB_DP"
+		(shape input)
+		(at 86.995 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7b50a4bf-cd29-4867-ab83-36757885c78e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 76.6922 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI1_SCK"
 		(shape input)
 		(at 50.8 57.15 180)
@@ -3663,6 +3837,28 @@
 			)
 		)
 	)
+	(global_label "UART4_RX"
+		(shape input)
+		(at 63.5 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7dd45294-bfed-47f9-9d4e-01e007d45efb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.7985 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "J2_38"
 		(shape input)
 		(at 63.5 74.93 0)
@@ -3676,28 +3872,6 @@
 		(uuid "803d8984-3e7a-41ba-8039-1bd6b39b0348")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 72.0489 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART4_RX"
-		(shape input)
-		(at 63.5 46.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8895dc8d-b03d-404b-b869-1435dcdbce3b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.7985 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,6 +4534,76 @@
 			(project ""
 				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3/8b74e690-9be2-433b-8a0a-5eb3a275b61f"
 					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 90.805 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2098ef2a-3ca4-48a1-b2f8-791ae544c541")
+		(property "Reference" "R7"
+			(at 92.71 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 92.71 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 90.805 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.805 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 90.805 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed1752c6-3fae-4497-887f-e1d70ef79a5a")
+		)
+		(pin "2"
+			(uuid "e842fa64-6539-4e6c-9867-ff52d987f698")
+		)
+		(instances
+			(project "CC_M7"
+				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3/8b74e690-9be2-433b-8a0a-5eb3a275b61f"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5756,6 +6000,72 @@
 			(project "CC_M7"
 				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3/8b74e690-9be2-433b-8a0a-5eb3a275b61f"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 90.805 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bb7722b-ef79-4b6e-aa4b-852363d5dfb7")
+		(property "Reference" "#PWR0106"
+			(at 90.805 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 90.805 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.805 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.805 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 90.805 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f000154-f529-4b0b-9d9b-5a1fb540d86f")
+		)
+		(instances
+			(project "CC_M7"
+				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3/8b74e690-9be2-433b-8a0a-5eb3a275b61f"
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)

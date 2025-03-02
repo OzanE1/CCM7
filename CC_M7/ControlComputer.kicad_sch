@@ -6500,18 +6500,6 @@
 		)
 		(uuid "9ac1856b-af7d-49e6-8bb0-e6202ae56515")
 	)
-	(text "KRISTAL KAPASITORLERI DEGISECEK\n"
-		(exclude_from_sim no)
-		(at 226.06 104.14 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-		)
-		(uuid "a4ed75fa-18ea-4163-906a-fe3c0fca8f0f")
-	)
 	(text "LEDS"
 		(exclude_from_sim no)
 		(at 189.23 194.31 0)
@@ -6536,18 +6524,6 @@
 			)
 		)
 		(uuid "c67d6c14-4e2f-45fe-991b-54a33d1c46a9")
-	)
-	(text "USB D+ HATTINA 1.5 K ile PULLUP 3.3V EKLENECEK"
-		(exclude_from_sim no)
-		(at 70.485 133.985 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-		)
-		(uuid "dfd79581-924b-4cd5-9832-8fc1c3fabd2f")
 	)
 	(text "VDDA FILTER"
 		(exclude_from_sim no)
@@ -8340,7 +8316,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "16pF"
 			(at 147.574 112.776 0)
 			(effects
 				(font
@@ -8476,7 +8452,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "16pF"
 			(at 171.45 111.7662 0)
 			(effects
 				(font

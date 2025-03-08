@@ -4605,7 +4605,7 @@
 			(uuid "caac98ac-4012-4f83-bef3-b442c2ffb1f1")
 		)
 		(instances
-			(project ""
+			(project "CC_M7"
 				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3/b4ae7b3b-cd15-4dc2-a519-be49b0fe3ceb"
 					(reference "U4")
 					(unit 1)
@@ -6994,7 +6994,7 @@
 			(uuid "eb20d75f-ad26-42e9-b71f-4419164f33fc")
 		)
 		(instances
-			(project ""
+			(project "CC_M7"
 				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3/b4ae7b3b-cd15-4dc2-a519-be49b0fe3ceb"
 					(reference "U11")
 					(unit 1)

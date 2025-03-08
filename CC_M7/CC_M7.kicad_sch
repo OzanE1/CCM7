@@ -544,7 +544,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "CC_M7"
 				(path "/20c3bbae-00c6-470e-8b69-dc0f665257a3"
 					(reference "H1")
 					(unit 1)

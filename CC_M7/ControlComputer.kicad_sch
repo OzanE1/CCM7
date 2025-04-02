@@ -8733,7 +8733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "jmpertest:jmpertest"
 			(at 163.83 219.71 0)
 			(effects
 				(font
@@ -10318,7 +10318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "jmpertest:jmpertest"
 			(at 163.83 209.55 0)
 			(effects
 				(font
@@ -10592,7 +10592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "jmpertest:jmpertest"
 			(at 163.83 214.63 0)
 			(effects
 				(font
@@ -10726,7 +10726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "jmpertest:jmpertest"
 			(at 163.83 204.47 0)
 			(effects
 				(font

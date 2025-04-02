@@ -220,7 +220,7 @@
 	(net 75 "USB_DM")
 	(net 76 "USB_DP")
 	(net 77 "unconnected-(J11-Shield-Pad6)_2")
-	(net 78 "unconnected-(J11-Shield-Pad6)_0")
+	(net 78 "unconnected-(J11-Shield-Pad6)_3")
 	(net 79 "UART3_TX")
 	(net 80 "UART3_RX")
 	(net 81 "SWO")
@@ -522,6 +522,133 @@
 			)
 		)
 	)
+	(footprint "MountingHole:CCMountingHole"
+		(layer "F.Cu")
+		(uuid "03cc239d-e515-4544-a697-450d3198fd05")
+		(at 124.144461 166.827759)
+		(property "Reference" "H6"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "53d9aa62-4cc8-48a6-8eca-ab1ff93574f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "73aa2dbf-4144-44f6-b6fa-163a8cf64c6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:CCMountingHole"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b73f2a5-7af9-4883-9105-8e163a5ff8b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "850a7fda-0cf2-466c-af0f-c8140bb91d66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3c7435d-8745-40f0-93cd-0d335595f95f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/7a15a03b-aeea-4750-8313-fa575265a829")
+		(sheetname "Root")
+		(sheetfile "CC_M7.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(fp_circle
+			(center -0.127 6.9596)
+			(end 2.623 6.9596)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "28f97542-8e5a-4027-9fbe-6b6e1010454a")
+		)
+		(fp_circle
+			(center -0.127 6.9596)
+			(end 2.873 6.9596)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "8627d9cc-2d30-4151-bf5c-2f0bc03ae83c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.127 6.9596 0)
+			(layer "F.Fab")
+			(uuid "1f4138ae-5741-45c8-a839-b242938fb0fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8ccb2624-3cd0-4a8d-9f03-6d26d81e0adb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -0.127 6.9596)
+			(size 5.5 5.5)
+			(drill 3.2)
+			(layers "*.Mask")
+			(clearance 1.8)
+			(zone_connect 0)
+			(uuid "779d29c6-2442-4d6e-b7af-6dc5713200f6")
+		)
+	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "0634cfb8-a28e-4756-8690-7005b1fd4842")
@@ -789,120 +916,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-		(layer "F.Cu")
-		(uuid "098cc1b0-9be4-4dba-a15e-19e647bdad9c")
-		(at 124.017461 173.787359)
-		(descr "Mounting Hole 3.2mm, M3, ISO14580")
-		(tags "mounting hole 3.2mm m3 iso14580")
-		(property "Reference" "H1"
-			(at 0 -3.75 0)
-			(layer "F.Fab")
-			(uuid "6e7c2e04-946b-4b34-8b17-e51d3c7b546e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 0 3.75 0)
-			(layer "F.Fab")
-			(uuid "a6b2836d-dee8-479e-aeef-f9d29be87bbb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f98a5d26-2a17-4b15-b4e0-919c4ffc62dc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e767a122-80a6-4a60-b438-175edd2be9ce")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "11f60018-cbae-4020-9542-19f7a0bbc7e6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/97e1f09b-da14-4143-94d8-36bd80529402")
-		(sheetname "Root")
-		(sheetfile "CC_M7.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.75 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "fa896c96-e186-4844-be21-90fa73c5b217")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "b6e86c75-a671-48be-a734-3b56ba2a91c3")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "dd9a7952-8bff-4643-b8f5-d5b1fc5040e2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 5.5 5.5)
-			(drill 3.2)
-			(layers "*.Mask")
-			(clearance 1.8)
-			(uuid "3f54ec89-0f7f-4181-8397-0020e9e03ce9")
 		)
 	)
 	(footprint "MBR230LSFT1G:SODFL3619X98N"
@@ -1521,6 +1534,399 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:CCMountingHole"
+		(layer "F.Cu")
+		(uuid "1b33d40e-5c15-4f31-ab3c-af0ccd9150a6")
+		(at 124.144356 108.82766)
+		(property "Reference" "H1"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "9259e3ab-8d2b-49bf-988f-aa036f72f638")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a5f51a6c-38a9-43af-b288-84d28506a98b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:CCMountingHole"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c609acec-b63e-4d21-8f17-ffb8639eb30a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb921256-4a31-4eb7-bd29-d3a398d17190")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c09445c0-9c8d-437f-a541-6ea2c710722b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/97e1f09b-da14-4143-94d8-36bd80529402")
+		(sheetname "Root")
+		(sheetfile "CC_M7.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(fp_circle
+			(center -0.127 6.9596)
+			(end 2.623 6.9596)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "fd1dcbdc-5958-43d8-a1c1-fcb07df38d94")
+		)
+		(fp_circle
+			(center -0.127 6.9596)
+			(end 2.873 6.9596)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "992b595e-36b4-4121-9363-33cfd470c28e")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.127 6.9596 0)
+			(layer "F.Fab")
+			(uuid "6a446e98-a6f2-4521-919c-cf55551d9131")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a7cdc8b1-ad9a-4dcc-957b-e2ad4c0c2457")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -0.127 6.9596)
+			(size 5.5 5.5)
+			(drill 3.2)
+			(layers "*.Mask")
+			(clearance 1.8)
+			(zone_connect 0)
+			(uuid "15ec3c69-2b4a-477c-8ea0-8c665853e5b6")
+		)
+	)
+	(footprint "jmpertest:jmpertest"
+		(layer "F.Cu")
+		(uuid "20fd0151-51bc-48db-8e71-a9e9ee499576")
+		(at 99.3666 121.008 180)
+		(property "Reference" "JP8"
+			(at 0 -0.5 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "dae9cbb2-9a05-490f-a728-f1c65287d2f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 0 1 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7ff04f71-66bd-4cf6-ae44-9fa32c06f427")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "jmpertest:jmpertest"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c213fa42-3a49-43c5-9526-7ef41cdbb476")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01d86365-e6c8-4dcd-8314-ec5cc0dc4d3e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2292c8e8-9a2b-4abc-ae8b-a218fd037cf0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
+		(path "/7ffac293-9e03-4b17-b08e-2a6334cbc734/985d4400-8021-4b2c-942f-cf563ff095ae")
+		(sheetname "RF Telemetry")
+		(sheetfile "RF Telemetry.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6a5d109a-7755-4be1-9c22-d8b93a270e5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd custom
+			(at -0.5334 0.508 180)
+			(size 0.3 0.3)
+			(layers "B.Cu" "B.Mask")
+			(net 86 "NRF_NRST")
+			(pinfunction "A")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.5334 0) (xy 0.3084 -0.25) (xy -0.3146 -0.25) (xy -0.3146 0.25) (xy 0.3084 0.25)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "3b04a08f-6233-4c11-afeb-8bba0fd27934")
+		)
+		(pad "2" smd custom
+			(at 0.381 0.508 180)
+			(size 0.3 0.3)
+			(layers "B.Cu" "B.Mask")
+			(net 60 "J2_40")
+			(pinfunction "B")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.2908 -0.25) (xy -0.4314 -0.25) (xy -0.2286 0) (xy -0.4314 0.25) (xy 0.2908 0.25)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "1540d178-13f5-47fe-9449-2ee79f33f7d5")
+		)
+	)
+	(footprint "jmpertest:jmpertest"
+		(layer "F.Cu")
+		(uuid "234a5e0f-d786-4493-8b34-4e092e20121c")
+		(at 99.381 121.908 180)
+		(property "Reference" "JP7"
+			(at 0 -0.5 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "29a43c45-3e9f-4d6c-b9fd-cc29010341cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 0 1 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1cc464f5-859b-480b-af78-c72c149bfc2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "jmpertest:jmpertest"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa122b52-1781-448c-99f0-e4cb4ce0370d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "246f42a2-45f8-4e16-85f2-548bfc680477")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "999722ad-71f3-4111-b37b-51695dbb209f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
+		(path "/7ffac293-9e03-4b17-b08e-2a6334cbc734/83d9f148-cd8b-4bd1-a2f4-d2ccb413da6f")
+		(sheetname "RF Telemetry")
+		(sheetfile "RF Telemetry.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b340521f-106e-4209-9cb0-9765ab083bad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd custom
+			(at -0.5334 0.508 180)
+			(size 0.3 0.3)
+			(layers "B.Cu" "B.Mask")
+			(net 85 "NRF_SWDIO")
+			(pinfunction "A")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.5334 0) (xy 0.3084 -0.25) (xy -0.3146 -0.25) (xy -0.3146 0.25) (xy 0.3084 0.25)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "d973e8d5-f921-4fc4-bb15-2b9f91d00c72")
+		)
+		(pad "2" smd custom
+			(at 0.381 0.508 180)
+			(size 0.3 0.3)
+			(layers "B.Cu" "B.Mask")
+			(net 54 "J2_38")
+			(pinfunction "B")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.2908 -0.25) (xy -0.4314 -0.25) (xy -0.2286 0) (xy -0.4314 0.25) (xy 0.2908 0.25)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "78d3aec8-fd1a-4ef2-8fda-1d058a92d965")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
@@ -2190,7 +2596,7 @@
 			(drill oval 0.55 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 77 "unconnected-(J11-Shield-Pad6)_2")
+			(net 78 "unconnected-(J11-Shield-Pad6)_3")
 			(pinfunction "Shield")
 			(pintype "passive+no_connect")
 			(uuid "edbc8cf7-178c-451f-9b74-3e2f261195e1")
@@ -2212,7 +2618,7 @@
 			(drill oval 0.85 1.4)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 74 "unconnected-(J11-Shield-Pad6)_1")
+			(net 77 "unconnected-(J11-Shield-Pad6)_2")
 			(pinfunction "Shield")
 			(pintype "passive+no_connect")
 			(uuid "b92856db-b90d-4267-be76-2583f47250bc")
@@ -2223,7 +2629,7 @@
 			(drill oval 0.55 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 78 "unconnected-(J11-Shield-Pad6)_0")
+			(net 74 "unconnected-(J11-Shield-Pad6)_1")
 			(pinfunction "Shield")
 			(pintype "passive+no_connect")
 			(uuid "97ed5673-4d85-42a3-8cde-00a6d2518420")
@@ -4404,6 +4810,139 @@
 			)
 		)
 	)
+	(footprint "jmpertest:jmpertest"
+		(layer "F.Cu")
+		(uuid "406ef850-f3f3-4bdf-a651-b6b40ed62514")
+		(at 96.8881 120)
+		(property "Reference" "JP4"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7cd68fce-cf86-47fc-8a6e-b1d36cee3cdb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3ef3ac12-48cd-400b-a6e7-623bbf0a2a97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "jmpertest:jmpertest"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7006ac3-b804-4d47-9548-6c24256f107b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f9bfcec-1a80-4628-ae14-43fec692774d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd4da4a3-27c4-4b96-b741-f741625f9533")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
+		(path "/07f6f905-59c0-438f-a556-b28e89ace803/255a0318-4395-4052-ace6-feddb27dd68a")
+		(sheetname "ControlComputer")
+		(sheetfile "ControlComputer.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "215c52d2-1642-4937-ad2a-13824f2e1064")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd custom
+			(at -0.5334 0.508)
+			(size 0.3 0.3)
+			(layers "B.Cu" "B.Mask")
+			(net 7 "NRST")
+			(pinfunction "A")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.5334 0) (xy 0.3084 -0.25) (xy -0.3146 -0.25) (xy -0.3146 0.25) (xy 0.3084 0.25)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "f4950887-5be6-4c52-9000-0ee7605f598e")
+		)
+		(pad "2" smd custom
+			(at 0.381 0.508)
+			(size 0.3 0.3)
+			(layers "B.Cu" "B.Mask")
+			(net 60 "J2_40")
+			(pinfunction "B")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.2908 -0.25) (xy -0.4314 -0.25) (xy -0.2286 0) (xy -0.4314 0.25) (xy 0.2908 0.25)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "5b1a2342-e45d-44cd-987c-1d8729f07df8")
+		)
+	)
 	(footprint "Inductor_SMD:L_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "430183c9-c72a-496b-a345-93c2c4656c20")
@@ -4615,6 +5154,133 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "MountingHole:CCMountingHole"
+		(layer "F.Cu")
+		(uuid "4336175f-df30-4dc5-b2ed-2745fb2e27f1")
+		(at 91.144356 166.82766)
+		(property "Reference" "H4"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "1be5c977-e847-4a5b-b5ad-c279e995ad5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "fdbac15e-c465-4ea6-aded-be4b93bc7f63")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:CCMountingHole"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0263f32-8caa-42f5-86ae-be702fed5fb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0f15ee0-c06b-4316-9018-7f4dc84072c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db8bdef0-596c-4598-982d-2ca922628301")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/3adc6292-9ee4-436c-b9f5-c934798517d9")
+		(sheetname "Root")
+		(sheetfile "CC_M7.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(fp_circle
+			(center -0.127 6.9596)
+			(end 2.623 6.9596)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "bb620eca-57f3-4cf8-bc68-c5478da16864")
+		)
+		(fp_circle
+			(center -0.127 6.9596)
+			(end 2.873 6.9596)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "8ce624a9-c097-46e2-a55b-af251da6373f")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.127 6.9596 0)
+			(layer "F.Fab")
+			(uuid "93de379f-293f-4092-b648-b13e315fe63d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a53a08fd-4455-4e91-b386-86a87cd8d87b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -0.127 6.9596)
+			(size 5.5 5.5)
+			(drill 3.2)
+			(layers "*.Mask")
+			(clearance 1.8)
+			(zone_connect 0)
+			(uuid "5b6655e9-f875-4212-b648-32f17a7675be")
 		)
 	)
 	(footprint "BMI088:PQFN50P450X300X100-16N"
@@ -5255,66 +5921,6 @@
 		(sheetfile "Connections.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start -1.33 -1.33)
-			(end 0 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a25abdd3-7c77-4f95-8033-8dac8d8b1b8f")
-		)
-		(fp_line
-			(start -1.33 0)
-			(end -1.33 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8f64393e-a86a-414a-8c5f-f7b8522a4e3f")
-		)
-		(fp_line
-			(start 1.33 1.27)
-			(end 1.33 6.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "68e4de94-96a8-47e4-9070-e945e0634c76")
-		)
-		(fp_line
-			(start -1.33 1.27)
-			(end 1.33 1.27)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "31c5435f-5ab9-4279-8428-abfe574c20f3")
-		)
-		(fp_line
-			(start -1.33 1.27)
-			(end -1.33 6.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fe79c331-a367-434e-a104-f6dc4ec1a967")
-		)
-		(fp_line
-			(start -1.33 6.41)
-			(end 1.33 6.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "78add112-4372-4441-b479-cd0e2233fbee")
-		)
-		(fp_line
 			(start 1.8 -1.8)
 			(end -1.8 -1.8)
 			(stroke
@@ -5460,6 +6066,139 @@
 			)
 		)
 	)
+	(footprint "jmpertest:jmpertest"
+		(layer "F.Cu")
+		(uuid "57520beb-abf7-46d5-822f-216449be208d")
+		(at 96.8881 120.846)
+		(property "Reference" "JP3"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3f79248f-a3e5-4b13-897a-d618fcfeb30f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3f4f9280-cc4c-43eb-8c52-7a1d4d19c59f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "jmpertest:jmpertest"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "42112df2-9afc-4c8b-a51f-5c4e44569be5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb27032f-44a3-4055-b5f9-67a5fd96b6d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8af97c81-3b57-4525-8dcc-c8935f2687db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
+		(path "/07f6f905-59c0-438f-a556-b28e89ace803/a37e8ef2-0868-4a0e-90dc-4ad424909a7d")
+		(sheetname "ControlComputer")
+		(sheetfile "ControlComputer.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7653360a-780e-4f1a-b5d8-8e6b70284fa8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd custom
+			(at -0.5334 0.508)
+			(size 0.3 0.3)
+			(layers "B.Cu" "B.Mask")
+			(net 83 "SWDIO")
+			(pinfunction "A")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.5334 0) (xy 0.3084 -0.25) (xy -0.3146 -0.25) (xy -0.3146 0.25) (xy 0.3084 0.25)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "f6893128-d3df-4e9b-b26b-9f7f7c014a8b")
+		)
+		(pad "2" smd custom
+			(at 0.381 0.508)
+			(size 0.3 0.3)
+			(layers "B.Cu" "B.Mask")
+			(net 54 "J2_38")
+			(pinfunction "B")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.2908 -0.25) (xy -0.4314 -0.25) (xy -0.2286 0) (xy -0.4314 0.25) (xy 0.2908 0.25)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "cf2d9a05-a3eb-4dd8-b695-ffe45413c3cd")
+		)
+	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "58568b1f-a7dd-4a81-a9c0-594d01c63d71")
@@ -5532,66 +6271,6 @@
 		(sheetname "Connections")
 		(sheetfile "Connections.kicad_sch")
 		(attr through_hole)
-		(fp_line
-			(start -1.33 -1.33)
-			(end 0 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ae1b02e4-ab2d-4093-8050-a5bcf51533a4")
-		)
-		(fp_line
-			(start -1.33 0)
-			(end -1.33 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "27b501e1-cad7-45e2-9019-9d97177a3f03")
-		)
-		(fp_line
-			(start 1.33 1.27)
-			(end 1.33 6.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6390ff53-7582-4f1e-b050-0a755c5e480a")
-		)
-		(fp_line
-			(start -1.33 1.27)
-			(end 1.33 1.27)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d6c9d5ad-7b9c-4fce-93ee-41b756349ef0")
-		)
-		(fp_line
-			(start -1.33 1.27)
-			(end -1.33 6.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7e33b871-f76b-4deb-bea8-6e54970b8484")
-		)
-		(fp_line
-			(start -1.33 6.41)
-			(end 1.33 6.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e678bd86-5f1c-49d1-b3d3-be98f89a87b7")
-		)
 		(fp_line
 			(start 1.8 -1.8)
 			(end -1.8 -1.8)
@@ -5739,27 +6418,27 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+	(footprint "MountingHole:CCMountingHole"
 		(layer "F.Cu")
-		(uuid "5d2c7fe7-69c0-49fb-bc26-33e5e10d43e9")
-		(at 91.017356 173.78726)
-		(descr "Mounting Hole 3.2mm, M3, ISO14580")
-		(tags "mounting hole 3.2mm m3 iso14580")
+		(uuid "5c83f067-615b-473c-ade8-96832e41cc2e")
+		(at 114.144356 108.82766)
 		(property "Reference" "H2"
-			(at 0 -3.75 0)
+			(at 0 -0.5 0)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "1988c8e7-538c-40f4-8324-52cdcbba22df")
+			(uuid "6fc8054e-9ccf-4e9d-9945-24006cae9617")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
+					(thickness 0.1)
 				)
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 0 3.75 0)
+			(at 0 1 0)
+			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "caeaf61e-3abe-44a7-9856-d17bd825b1aa")
+			(uuid "10c4831c-83c2-405f-bf24-a0780b514cf5")
 			(effects
 				(font
 					(size 1 1)
@@ -5767,15 +6446,15 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+		(property "Footprint" "MountingHole:CCMountingHole"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3eefc81e-ede4-4104-bd64-3253cfa5ac93")
+			(uuid "54031db4-2bab-41c2-8f8c-e19897a826dc")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5785,10 +6464,10 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0e53e686-b17c-4038-a259-d7d7d4fa30c3")
+			(uuid "a9eecb4c-f6b0-4a11-b669-ae85f15e15fd")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5798,10 +6477,10 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3248282a-3e2a-46c1-93ad-661cd2348500")
+			(uuid "2067d833-44d4-4ced-bf75-2a748a3b72f8")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5810,33 +6489,45 @@
 		(path "/3a07f841-dad5-4279-8713-49dcb8551804")
 		(sheetname "Root")
 		(sheetfile "CC_M7.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr through_hole exclude_from_bom)
 		(fp_circle
-			(center 0 0)
-			(end 2.75 0)
+			(center -0.127 6.9596)
+			(end 2.623 6.9596)
 			(stroke
 				(width 0.15)
 				(type solid)
 			)
 			(fill none)
 			(layer "Cmts.User")
-			(uuid "421b7004-adea-41be-a3b2-1df27115f053")
+			(uuid "8c688262-955f-4459-8116-4e4aa52c45a0")
 		)
 		(fp_circle
-			(center 0 0)
-			(end 3 0)
+			(center -0.127 6.9596)
+			(end 2.873 6.9596)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill none)
 			(layer "F.CrtYd")
-			(uuid "2d7ed25b-b2d5-49cb-a25b-1e7265f0e590")
+			(uuid "af0a3e0e-55d0-427a-af74-bf9cd3adfdda")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at -0.127 6.9596 0)
 			(layer "F.Fab")
-			(uuid "0e5107c0-5e55-485a-b9ef-f737c7f2f461")
+			(uuid "2a9b74d9-7cdf-49b1-892d-588af9ad00b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "fa7bd7e9-cd3c-4858-8225-ebf833df0e65")
 			(effects
 				(font
 					(size 1 1)
@@ -5845,12 +6536,13 @@
 			)
 		)
 		(pad "" np_thru_hole circle
-			(at 0 0)
+			(at -0.127 6.9596)
 			(size 5.5 5.5)
 			(drill 3.2)
 			(layers "*.Mask")
 			(clearance 1.8)
-			(uuid "7b25bdcc-dd78-4f73-b8bb-16eb0f362c86")
+			(zone_connect 0)
+			(uuid "fab6c5aa-892b-4844-93fa-fe3f693151dd")
 		)
 	)
 	(footprint "BMP581:BMP581"
@@ -7219,6 +7911,133 @@
 			)
 		)
 	)
+	(footprint "MountingHole:CCMountingHole"
+		(layer "F.Cu")
+		(uuid "62b79cd1-b084-440d-8286-7c486c014324")
+		(at 114.144356 166.82766)
+		(property "Reference" "H5"
+			(at -2.544356 1.87234 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "101be3f6-d3bb-47cb-9a8e-dafd9917ea83")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "37f8b9c0-a90c-46b7-88c3-25bfc94eab78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:CCMountingHole"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b6c2bab-9677-4a81-b584-4091c68c9f57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "658b436c-9d9a-42d3-915a-789a5271e47c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2578f6dd-c33a-4bdd-8218-1ef882b0bfc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/66f38ec6-846b-4df6-acfa-307238d90d7d")
+		(sheetname "Root")
+		(sheetfile "CC_M7.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(fp_circle
+			(center -0.127 6.9596)
+			(end 2.623 6.9596)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "18f6fc9b-30cf-4919-a4b0-6fddace342e1")
+		)
+		(fp_circle
+			(center -0.127 6.9596)
+			(end 2.873 6.9596)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "432c42bd-42a4-4ec0-82b6-30fea9451314")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.127 6.9596 0)
+			(layer "F.Fab")
+			(uuid "840e5849-c585-4665-96af-74806c2c11d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8ca87d23-2117-479e-bf30-c054f27f98b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -0.127 6.9596)
+			(size 5.5 5.5)
+			(drill 3.2)
+			(layers "*.Mask")
+			(clearance 1.8)
+			(zone_connect 0)
+			(uuid "8e2ded77-c752-4961-9d0f-a645bb803bed")
+		)
+	)
 	(footprint "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "67ad0be4-d43f-4dc1-a083-2451540a0514")
@@ -7842,66 +8661,6 @@
 		(sheetname "Connections")
 		(sheetfile "Connections.kicad_sch")
 		(attr through_hole)
-		(fp_line
-			(start -1.33 -1.33)
-			(end 0 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d5c3fd9e-1045-4441-9667-c5e0f51fdf23")
-		)
-		(fp_line
-			(start -1.33 0)
-			(end -1.33 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7dd7a712-be49-4bbc-a357-3116e128db48")
-		)
-		(fp_line
-			(start 1.33 1.27)
-			(end 1.33 6.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "41f7a191-daa1-42cc-9d21-24c6cb1622b0")
-		)
-		(fp_line
-			(start -1.33 1.27)
-			(end 1.33 1.27)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "be95007d-c224-4624-82e6-8087af91582c")
-		)
-		(fp_line
-			(start -1.33 1.27)
-			(end -1.33 6.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ccbcdd13-9879-4475-bd5b-98070cc0cb4b")
-		)
-		(fp_line
-			(start -1.33 6.41)
-			(end 1.33 6.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "09bc70e5-ee9e-45c5-90c8-d1870c8d89ae")
-		)
 		(fp_line
 			(start 1.8 -1.8)
 			(end -1.8 -1.8)
@@ -8940,121 +9699,6 @@
 			)
 		)
 	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-		(layer "F.Cu")
-		(uuid "83759056-3d5a-46ce-a895-924a76c8a6e1")
-		(at 124.017356 115.78726)
-		(descr "Mounting Hole 3.2mm, M3, ISO14580")
-		(tags "mounting hole 3.2mm m3 iso14580")
-		(property "Reference" "H5"
-			(at 0 -3.75 0)
-			(layer "F.Fab")
-			(uuid "8b1ce97d-7ba1-4eeb-8260-f16914b35984")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 0 3.75 0)
-			(layer "F.Fab")
-			(uuid "56e7e14d-ae68-45b5-abe3-d09e6a5e1e8e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3bf8689f-eeaa-4dd5-ac05-da722437632c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b64c719d-5fe6-4347-8cc3-da80c395faa9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7b067c85-6e58-4ed4-90e4-37a44c8fa7dc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/66f38ec6-846b-4df6-acfa-307238d90d7d")
-		(sheetname "Root")
-		(sheetfile "CC_M7.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.75 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "067d33e9-f8c4-421f-bbf3-521ddb57cc88")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "f54b32c2-3451-4568-861c-687bfa04a31d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "a9f738de-8bb4-4f21-a970-7cca79a92838")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 5.5 5.5)
-			(drill 3.2)
-			(layers "*.Mask")
-			(clearance 1.8)
-			(zone_connect 0)
-			(uuid "d5a6aaec-edca-4d78-a9f6-063716493dfa")
-		)
-	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
 		(layer "F.Cu")
 		(uuid "84669070-5670-41ae-848e-8e8daf4a6c70")
@@ -9267,6 +9911,272 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "jmpertest:jmpertest"
+		(layer "F.Cu")
+		(uuid "89733f19-a3c5-4fd0-aea4-e4886b5f6047")
+		(at 96.8881 121.792)
+		(property "Reference" "JP2"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "6dd3feb4-2aee-43a8-aab7-4816c8049fc1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ae03dccd-6362-4a99-8dcf-689eda30d0be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "jmpertest:jmpertest"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91e0a875-f11d-431f-8b26-32be9f782090")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3408e1ff-1d9c-496e-b279-ba5bb13c4601")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "991cf282-e60d-4640-b134-72d8f9a96c80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
+		(path "/07f6f905-59c0-438f-a556-b28e89ace803/8d9b2534-d57b-4c21-8683-7021085d4170")
+		(sheetname "ControlComputer")
+		(sheetfile "ControlComputer.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b9cd39b8-eebb-40ae-8a98-3d8704a721a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd custom
+			(at -0.5334 0.508)
+			(size 0.3 0.3)
+			(layers "B.Cu" "B.Mask")
+			(net 82 "SWCLK")
+			(pinfunction "A")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.5334 0) (xy 0.3084 -0.25) (xy -0.3146 -0.25) (xy -0.3146 0.25) (xy 0.3084 0.25)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "082d3119-a6d9-4ff1-ab5a-7bd1ba59fff1")
+		)
+		(pad "2" smd custom
+			(at 0.381 0.508)
+			(size 0.3 0.3)
+			(layers "B.Cu" "B.Mask")
+			(net 62 "J2_36")
+			(pinfunction "B")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.2908 -0.25) (xy -0.4314 -0.25) (xy -0.2286 0) (xy -0.4314 0.25) (xy 0.2908 0.25)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "2c61ee57-ad79-410c-a109-a6542e7753bb")
+		)
+	)
+	(footprint "jmpertest:jmpertest"
+		(layer "F.Cu")
+		(uuid "8b45a0d2-0ec2-4207-92bf-837c3962ab7f")
+		(at 99.3119 122.754 180)
+		(property "Reference" "JP6"
+			(at 0 -0.5 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "805e1aef-7f56-4aae-8dca-995f0775d7bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 0 1 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a653b4d7-da28-4ba0-8528-33f71b2fccbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "jmpertest:jmpertest"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a59efd1a-fdb6-4649-9f65-a67df6a2ca8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d40705b-6ec1-4f98-8118-d49f1dba88ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13f71679-c7e5-4ec8-a663-0939440d3539")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
+		(path "/7ffac293-9e03-4b17-b08e-2a6334cbc734/2a3e46dd-35d6-4a54-a113-a53497390b86")
+		(sheetname "RF Telemetry")
+		(sheetfile "RF Telemetry.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "5cdd5948-35db-42a7-b6fa-29925386ee37")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd custom
+			(at -0.5334 0.508 180)
+			(size 0.3 0.3)
+			(layers "B.Cu" "B.Mask")
+			(net 84 "NRF_SWCLK")
+			(pinfunction "A")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.5334 0) (xy 0.3084 -0.25) (xy -0.3146 -0.25) (xy -0.3146 0.25) (xy 0.3084 0.25)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "5f0efb4a-421f-4bd5-8146-6a3624759b6c")
+		)
+		(pad "2" smd custom
+			(at 0.381 0.508 180)
+			(size 0.3 0.3)
+			(layers "B.Cu" "B.Mask")
+			(net 62 "J2_36")
+			(pinfunction "B")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.2908 -0.25) (xy -0.4314 -0.25) (xy -0.2286 0) (xy -0.4314 0.25) (xy 0.2908 0.25)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "02d61a93-8279-4850-b124-7a3596c019c8")
 		)
 	)
 	(footprint "Connector_Hirose:Hirose_DF13-04P-1.25DSA_1x04_P1.25mm_Vertical"
@@ -9550,6 +10460,139 @@
 			)
 		)
 	)
+	(footprint "jmpertest:jmpertest"
+		(layer "F.Cu")
+		(uuid "8f57a834-d983-420d-bc48-c4b67a2ee0a7")
+		(at 96.9334 122.592)
+		(property "Reference" "JP1"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "800a568f-e2cc-49f0-8d46-1b2f9342a294")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "7148449c-afb6-49b2-ab38-029c6d98373b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "jmpertest:jmpertest"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6f538cb-3e30-4ab8-b9ab-2f720c28fc53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43581444-1974-4192-aa33-1ed357fedccf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73453054-6e19-447a-bdf6-ac0ed7ed73aa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
+		(path "/07f6f905-59c0-438f-a556-b28e89ace803/ae731158-e922-4095-9ad0-18fcff4d0416")
+		(sheetname "ControlComputer")
+		(sheetfile "ControlComputer.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "bf152922-6775-45bb-be22-e9be5346b257")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd custom
+			(at -0.5334 0.508)
+			(size 0.3 0.3)
+			(layers "B.Cu" "B.Mask")
+			(net 81 "SWO")
+			(pinfunction "A")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.5334 0) (xy 0.3084 -0.25) (xy -0.3146 -0.25) (xy -0.3146 0.25) (xy 0.3084 0.25)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "83a55633-531f-4e9d-a107-97536120a69b")
+		)
+		(pad "2" smd custom
+			(at 0.381 0.508)
+			(size 0.3 0.3)
+			(layers "B.Cu" "B.Mask")
+			(net 38 "J2_32")
+			(pinfunction "B")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.2908 -0.25) (xy -0.4314 -0.25) (xy -0.2286 0) (xy -0.4314 0.25) (xy 0.2908 0.25)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "8f56810b-1756-4216-8030-e6962e9f2b4f")
+		)
+	)
 	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 		(layer "F.Cu")
 		(uuid "925c4a67-93be-4808-ac3e-d6de79ded297")
@@ -9789,121 +10832,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-		(layer "F.Cu")
-		(uuid "97f2a730-c076-400a-be35-4297e4e30eb6")
-		(at 114.017356 173.78726)
-		(descr "Mounting Hole 3.2mm, M3, ISO14580")
-		(tags "mounting hole 3.2mm m3 iso14580")
-		(property "Reference" "H4"
-			(at 0 -3.75 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "459ffa2f-a081-49f1-b100-ad936b00bb28")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 0 3.75 0)
-			(layer "F.Fab")
-			(uuid "bd496363-5794-41d4-80ef-4119fba0c315")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "173e1253-0309-4008-a719-6b0164bd5c36")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cc09cf98-8aa3-4b70-90f2-816ce4c85558")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "43b892ff-811e-4698-8a77-66b730726988")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/3adc6292-9ee4-436c-b9f5-c934798517d9")
-		(sheetname "Root")
-		(sheetfile "CC_M7.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.75 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "67807862-8544-479f-a5b1-54e316f6d328")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "d3cadd91-0947-4636-b844-9db20cacea3d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "89d774f1-96a8-4c97-ba29-31b78058cbc1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 5.5 5.5)
-			(drill 3.2)
-			(layers "*.Mask")
-			(clearance 1.8)
-			(uuid "a4d79548-66be-4c48-b203-0636d51d97a4")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0201_0603Metric"
@@ -11130,6 +12058,133 @@
 			(pinfunction "FB")
 			(pintype "output")
 			(uuid "4eb16cf3-4a5d-41ea-a26c-40ce694e0b85")
+		)
+	)
+	(footprint "MountingHole:CCMountingHole"
+		(layer "F.Cu")
+		(uuid "b49c62c9-3b9e-410c-a09f-0cd77248f69f")
+		(at 91.144471 108.827769)
+		(property "Reference" "H3"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "23326a30-3efa-4253-a2d3-752d24e75641")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "055d50e9-3a32-4031-96f2-1425258079bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:CCMountingHole"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faccf2ca-77ec-4088-8dbc-da8dabc9bd1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c82935e9-25b4-4f70-8191-2485679359e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39fa5a37-295f-4fcd-87ba-4e476a03377b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "MountingHole*")
+		(path "/3522d6b3-091d-4a61-ba06-3814a4059495")
+		(sheetname "Root")
+		(sheetfile "CC_M7.kicad_sch")
+		(attr through_hole exclude_from_bom)
+		(fp_circle
+			(center -0.127 6.9596)
+			(end 2.623 6.9596)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "5ea08036-fbd4-4b4a-95a4-67022eeb0234")
+		)
+		(fp_circle
+			(center -0.127 6.9596)
+			(end 2.873 6.9596)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "b05c248a-4097-4a87-bb3b-78db76571e80")
+		)
+		(fp_text user "${REFERENCE}"
+			(at -0.127 6.9596 0)
+			(layer "F.Fab")
+			(uuid "8c917b6d-2236-4a0c-9966-8090b7fa6915")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ef07766b-6539-4d56-aa5e-2d5ad4833df7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -0.127 6.9596)
+			(size 5.5 5.5)
+			(drill 3.2)
+			(layers "*.Mask")
+			(clearance 1.8)
+			(zone_connect 0)
+			(uuid "01249577-ac2e-4782-a9a7-66dca42d060b")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
@@ -12532,6 +13587,139 @@
 			(uuid "297828eb-17ff-4b7e-85f9-5a3f118c5dfe")
 		)
 	)
+	(footprint "jmpertest:jmpertest"
+		(layer "F.Cu")
+		(uuid "c9034c13-2014-4b89-b6ec-3d46812caef0")
+		(at 99.281 123.608 180)
+		(property "Reference" "JP5"
+			(at 0 -0.5 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4c29bbf7-9049-4bcd-b504-51e6066d3f2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 0 1 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ffa2adf3-e7cd-40ca-9bb0-60e36f09235c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "jmpertest:jmpertest"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4febda7c-1174-47c2-b07d-93d5209e01f9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c1272cf-0074-4526-a1c2-476ea3fc918d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ffc8742-6b6a-4920-a152-57425e58383e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
+		(path "/7ffac293-9e03-4b17-b08e-2a6334cbc734/91622045-e4d9-4c02-9e5e-da5d6e4ca8f8")
+		(sheetname "RF Telemetry")
+		(sheetfile "RF Telemetry.kicad_sch")
+		(attr smd)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "872f1fc8-e12e-4670-a6ef-0b5ead16f34a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd custom
+			(at -0.5334 0.508 180)
+			(size 0.3 0.3)
+			(layers "B.Cu" "B.Mask")
+			(net 19 "3V3_RF")
+			(pinfunction "A")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.5334 0) (xy 0.3084 -0.25) (xy -0.3146 -0.25) (xy -0.3146 0.25) (xy 0.3084 0.25)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "ccebfd00-8cfe-46a7-805f-e4729288b775")
+		)
+		(pad "2" smd custom
+			(at 0.381 0.508 180)
+			(size 0.3 0.3)
+			(layers "B.Cu" "B.Mask")
+			(net 38 "J2_32")
+			(pinfunction "B")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.2908 -0.25) (xy -0.4314 -0.25) (xy -0.2286 0) (xy -0.4314 0.25) (xy 0.2908 0.25)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "821306ac-8842-40c0-9a34-8aa94db92755")
+		)
+	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ca8887d4-6750-490f-b6a7-b923b55100e6")
@@ -12766,234 +13954,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-		(layer "F.Cu")
-		(uuid "cdc20dd8-79e2-4291-96ec-89c927569d31")
-		(at 114.017356 115.78726)
-		(descr "Mounting Hole 3.2mm, M3, ISO14580")
-		(tags "mounting hole 3.2mm m3 iso14580")
-		(property "Reference" "H6"
-			(at 0 -3.75 0)
-			(layer "F.Fab")
-			(uuid "b4d5815d-c126-4dcb-be65-b4c2d3404d00")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 0 3.75 0)
-			(layer "F.Fab")
-			(uuid "e623eb62-fe5f-4ffc-bfcd-8db1501d2f70")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e9483b7c-ae93-4e2e-b8f9-364e3e1ffada")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a1266b69-0eba-458f-80e0-b854cb391c19")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b1bcc364-1eeb-427c-948b-f6f7edeeefbe")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/7a15a03b-aeea-4750-8313-fa575265a829")
-		(sheetname "Root")
-		(sheetfile "CC_M7.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.75 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "d26da6ba-0eb5-4b5c-8cf8-5f6b8c39ca48")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "83c76478-351e-46e6-892d-b1d7b355bdd0")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "71b0a9cc-94d2-4397-bbb9-802be00d5975")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 5.5 5.5)
-			(drill 3.2)
-			(layers "*.Mask")
-			(clearance 1.8)
-			(uuid "c87532ef-03e7-4f0f-bcae-f838c94afa32")
-		)
-	)
-	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-		(layer "F.Cu")
-		(uuid "d200ddf7-06e0-46d2-896e-9f3e75c64170")
-		(at 91.017471 115.787369)
-		(descr "Mounting Hole 3.2mm, M3, ISO14580")
-		(tags "mounting hole 3.2mm m3 iso14580")
-		(property "Reference" "H3"
-			(at 0 -3.75 0)
-			(layer "F.Fab")
-			(uuid "0ef446fc-d351-4976-b038-a9d1fb70ec68")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 0 3.75 0)
-			(layer "F.Fab")
-			(uuid "ce047796-9dde-48dd-9701-ecb8140159a2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d0e6ea39-0384-4ee8-911e-00f0fb4a3e26")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bc2181ec-a26a-463d-a19f-a8892b58385b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole without connection"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "abdaf07e-8453-4d4c-9195-4505d4e85691")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "MountingHole*")
-		(path "/3522d6b3-091d-4a61-ba06-3814a4059495")
-		(sheetname "Root")
-		(sheetfile "CC_M7.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
-		(fp_circle
-			(center 0 0)
-			(end 2.75 0)
-			(stroke
-				(width 0.15)
-				(type solid)
-			)
-			(fill none)
-			(layer "Cmts.User")
-			(uuid "aa3491f0-ade5-4ede-b1d8-3677936aae1f")
-		)
-		(fp_circle
-			(center 0 0)
-			(end 3 0)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(fill none)
-			(layer "F.CrtYd")
-			(uuid "327b4519-9b44-4d7a-9ffe-91d233761fbb")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "09d3cd7e-9974-48d0-88df-99f7739090d2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "" np_thru_hole circle
-			(at 0 0)
-			(size 5.5 5.5)
-			(drill 3.2)
-			(layers "*.Mask")
-			(clearance 1.8)
-			(uuid "6e257558-dd67-4b35-9f42-c84f413ef1c3")
 		)
 	)
 	(footprint "Capacitor_SMD:C_1206_3216Metric"
@@ -13661,66 +14621,6 @@
 		(sheetname "Connections")
 		(sheetfile "Connections.kicad_sch")
 		(attr through_hole)
-		(fp_line
-			(start -1.33 -1.33)
-			(end 0 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "db7a293d-5c42-4e60-9427-b10faf3eebcc")
-		)
-		(fp_line
-			(start -1.33 0)
-			(end -1.33 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "eb97e979-d904-457f-ad1c-df1a71f2bfc7")
-		)
-		(fp_line
-			(start 1.33 1.27)
-			(end 1.33 6.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "18255fa5-71df-4fed-bae4-6cb4fa094a26")
-		)
-		(fp_line
-			(start -1.33 1.27)
-			(end 1.33 1.27)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "accbdc1e-42bd-45c1-afed-79bb7f40d618")
-		)
-		(fp_line
-			(start -1.33 1.27)
-			(end -1.33 6.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "308a0ba5-dd24-4296-8377-8e8a52347c69")
-		)
-		(fp_line
-			(start -1.33 6.41)
-			(end 1.33 6.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "82452247-3d2a-42a1-97e5-8d5fa0df46b9")
-		)
 		(fp_line
 			(start 1.8 -1.8)
 			(end -1.8 -1.8)
@@ -15674,66 +16574,6 @@
 		(sheetname "Connections")
 		(sheetfile "Connections.kicad_sch")
 		(attr through_hole)
-		(fp_line
-			(start -1.33 -1.33)
-			(end 0 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8b3caa73-60cd-454d-b121-1c50e0ec90c4")
-		)
-		(fp_line
-			(start -1.33 0)
-			(end -1.33 -1.33)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1f6ed9ab-58eb-45af-8c70-def197fe628e")
-		)
-		(fp_line
-			(start 1.33 1.27)
-			(end 1.33 6.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "1c7af2ef-25fb-4aca-939f-bd0f3632a467")
-		)
-		(fp_line
-			(start -1.33 1.27)
-			(end 1.33 1.27)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "305b5cd1-4594-4fcf-8915-2fc1395758da")
-		)
-		(fp_line
-			(start -1.33 1.27)
-			(end -1.33 6.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "74ab9737-a24b-4070-8f6e-ac0731e06e17")
-		)
-		(fp_line
-			(start -1.33 6.41)
-			(end 1.33 6.41)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "424a1e94-2751-4ac5-9c1a-837612870c91")
-		)
 		(fp_line
 			(start 1.8 -1.8)
 			(end -1.8 -1.8)
@@ -19747,135 +20587,6 @@
 			)
 		)
 	)
-	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-		(layer "B.Cu")
-		(uuid "1d574cbf-e98b-4c32-af3c-6f4d955ee66c")
-		(at 99.3394 122.2502 180)
-		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
-		(tags "solder jumper open")
-		(property "Reference" "JP6"
-			(at 0 1.8 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "c7023ba2-9b94-4716-9abb-370add149728")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "SWDIO"
-			(at 0 -1.9 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f6b436ff-7d52-47a5-94a9-4d5e5f838b9a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at -0.0254 -0.0508 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "915fd90b-7248-4ff3-af60-cbe999739cdd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at -0.0254 -0.0508 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3896cbfe-bc83-4523-8076-7863c139c761")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at -0.9652 -0.7366 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c343cdf1-e998-49c5-816d-d916f13073bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
-		(path "/7ffac293-9e03-4b17-b08e-2a6334cbc734/2a3e46dd-35d6-4a54-a113-a53497390b86")
-		(sheetname "RF Telemetry")
-		(sheetfile "RF Telemetry.kicad_sch")
-		(zone_connect 1)
-		(attr exclude_from_pos_files)
-		(pad "1" smd custom
-			(at -0.5334 0 180)
-			(size 0.3 0.3)
-			(layers "B.Cu" "B.Mask")
-			(net 84 "NRF_SWCLK")
-			(pinfunction "A")
-			(pintype "passive")
-			(zone_connect 2)
-			(thermal_bridge_angle 45)
-			(options
-				(clearance outline)
-				(anchor rect)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0.5334 0) (xy 0.3084 -0.25) (xy -0.3146 -0.25) (xy -0.3146 0.25) (xy 0.3084 0.25)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "18b2da29-a619-4b89-b71b-a38b3546e220")
-		)
-		(pad "2" smd custom
-			(at 0.381 0 180)
-			(size 0.3 0.3)
-			(layers "B.Cu" "B.Mask")
-			(net 62 "J2_36")
-			(pinfunction "B")
-			(pintype "passive")
-			(zone_connect 2)
-			(thermal_bridge_angle 45)
-			(options
-				(clearance outline)
-				(anchor rect)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0.2908 -0.25) (xy -0.4314 -0.25) (xy -0.2286 0) (xy -0.4314 0.25) (xy 0.2908 0.25)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "856cec1f-d38e-4197-8c7e-b062fd8d5a98")
-		)
-	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "20f20290-890b-4ade-a930-75557f7be1da")
@@ -20753,135 +21464,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-		(layer "B.Cu")
-		(uuid "34abd3ba-885d-4066-8676-83b326a2bcf9")
-		(at 99.3394 121.3612 180)
-		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
-		(tags "solder jumper open")
-		(property "Reference" "JP7"
-			(at 0 1.8 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "cbbfd046-1462-4616-aea0-e9911d852efa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "SWDIO"
-			(at 0 -1.9 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "a81b7bda-e513-423f-8da3-3db93beec0d3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8c2b79b2-326c-4d0b-bd4d-f1b065c4e492")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c5166aef-dcb8-443e-90f9-7840109bcc2d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "7ed5cb4c-3e74-4bdd-bec8-02f42fab27df")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
-		(path "/7ffac293-9e03-4b17-b08e-2a6334cbc734/83d9f148-cd8b-4bd1-a2f4-d2ccb413da6f")
-		(sheetname "RF Telemetry")
-		(sheetfile "RF Telemetry.kicad_sch")
-		(zone_connect 1)
-		(attr exclude_from_pos_files)
-		(pad "1" smd custom
-			(at -0.5334 0 180)
-			(size 0.3 0.3)
-			(layers "B.Cu" "B.Mask")
-			(net 85 "NRF_SWDIO")
-			(pinfunction "A")
-			(pintype "passive")
-			(zone_connect 2)
-			(thermal_bridge_angle 45)
-			(options
-				(clearance outline)
-				(anchor rect)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0.5334 0) (xy 0.3084 -0.25) (xy -0.3146 -0.25) (xy -0.3146 0.25) (xy 0.3084 0.25)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "518be979-5bc9-4b05-a05e-394d9cf6fbac")
-		)
-		(pad "2" smd custom
-			(at 0.381 0 180)
-			(size 0.3 0.3)
-			(layers "B.Cu" "B.Mask")
-			(net 54 "J2_38")
-			(pinfunction "B")
-			(pintype "passive")
-			(zone_connect 2)
-			(thermal_bridge_angle 45)
-			(options
-				(clearance outline)
-				(anchor rect)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0.2908 -0.25) (xy -0.4314 -0.25) (xy -0.2286 0) (xy -0.4314 0.25) (xy 0.2908 0.25)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "cac8a8e8-5e99-44bb-85d5-17ad0eb06785")
 		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
@@ -21978,135 +22560,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-		(layer "B.Cu")
-		(uuid "49c71a3c-53ad-455b-94dc-af5974e8d174")
-		(at 99.3394 120.4722 180)
-		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
-		(tags "solder jumper open")
-		(property "Reference" "JP8"
-			(at 0 1.8 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "dec57e1c-15e2-4b87-82db-088e9f2f6494")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "SWDIO"
-			(at 0 -1.9 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5df7ae0c-89fe-4fb7-b356-c847481a33e5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at -0.0508 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "2e48bf8d-4bc6-4a37-8cf2-492a49816ca8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at -0.0508 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "59f12600-c71b-487f-91fb-c27a3cfc8336")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at -0.0508 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d08eb82d-2ab2-4f57-99c3-82bb2b087c78")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
-		(path "/7ffac293-9e03-4b17-b08e-2a6334cbc734/985d4400-8021-4b2c-942f-cf563ff095ae")
-		(sheetname "RF Telemetry")
-		(sheetfile "RF Telemetry.kicad_sch")
-		(zone_connect 1)
-		(attr exclude_from_pos_files)
-		(pad "1" smd custom
-			(at -0.5334 0 180)
-			(size 0.3 0.3)
-			(layers "B.Cu" "B.Mask")
-			(net 86 "NRF_NRST")
-			(pinfunction "A")
-			(pintype "passive")
-			(zone_connect 2)
-			(thermal_bridge_angle 45)
-			(options
-				(clearance outline)
-				(anchor rect)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0.5334 0) (xy 0.3084 -0.25) (xy -0.3146 -0.25) (xy -0.3146 0.25) (xy 0.3084 0.25)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "0db000d2-da09-4cfc-877a-feba1df65072")
-		)
-		(pad "2" smd custom
-			(at 0.381 0 180)
-			(size 0.3 0.3)
-			(layers "B.Cu" "B.Mask")
-			(net 60 "J2_40")
-			(pinfunction "B")
-			(pintype "passive")
-			(zone_connect 2)
-			(thermal_bridge_angle 45)
-			(options
-				(clearance outline)
-				(anchor rect)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0.2908 -0.25) (xy -0.4314 -0.25) (xy -0.2286 0) (xy -0.4314 0.25) (xy 0.2908 0.25)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "fa2bc040-9eac-4e29-8312-ca10ff96adb2")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
@@ -24302,135 +24755,6 @@
 			)
 		)
 	)
-	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-		(layer "B.Cu")
-		(uuid "7a089cdd-2e66-4381-9c40-f1c516b3befd")
-		(at 99.3394 123.1392 180)
-		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
-		(tags "solder jumper open")
-		(property "Reference" "JP5"
-			(at 0 1.8 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "6dfdc4cc-71a6-4a8f-91f7-036f2043b587")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "SWDIO"
-			(at 0 -1.9 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "bab6e7f2-d2a1-48d6-843b-156f2387812f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e1c30308-12fa-473c-827d-1e9bdfb8be1c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e853b4d7-e8ee-4403-abf4-f2a844802697")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "36da6efc-00b5-4556-b9b3-7230cec4df6f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
-		(path "/7ffac293-9e03-4b17-b08e-2a6334cbc734/91622045-e4d9-4c02-9e5e-da5d6e4ca8f8")
-		(sheetname "RF Telemetry")
-		(sheetfile "RF Telemetry.kicad_sch")
-		(zone_connect 1)
-		(attr exclude_from_pos_files)
-		(pad "1" smd custom
-			(at -0.5334 0 180)
-			(size 0.3 0.3)
-			(layers "B.Cu" "B.Mask")
-			(net 19 "3V3_RF")
-			(pinfunction "A")
-			(pintype "passive")
-			(zone_connect 2)
-			(thermal_bridge_angle 45)
-			(options
-				(clearance outline)
-				(anchor rect)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0.5334 0) (xy 0.3084 -0.25) (xy -0.3146 -0.25) (xy -0.3146 0.25) (xy 0.3084 0.25)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "7f5b1cb1-9ad0-4530-b59e-7795fdffe882")
-		)
-		(pad "2" smd custom
-			(at 0.381 0 180)
-			(size 0.3 0.3)
-			(layers "B.Cu" "B.Mask")
-			(net 38 "J2_32")
-			(pinfunction "B")
-			(pintype "passive")
-			(zone_connect 2)
-			(thermal_bridge_angle 45)
-			(options
-				(clearance outline)
-				(anchor rect)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0.2908 -0.25) (xy -0.4314 -0.25) (xy -0.2286 0) (xy -0.4314 0.25) (xy 0.2908 0.25)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "380aff00-8eac-4cd6-9b88-510bc2bff68d")
-		)
-	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "7aa7f9ba-83cb-4b4a-a0d1-b37c69a0ecf1")
@@ -25086,135 +25410,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-		(layer "B.Cu")
-		(uuid "82eebaa4-e98d-4bd1-b890-e72f535ae072")
-		(at 96.9264 123.1392)
-		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
-		(tags "solder jumper open")
-		(property "Reference" "JP1"
-			(at 0 1.8 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "c1945ac0-114c-4521-9f3d-e9f428312d75")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "SWDIO"
-			(at 0 -1.9 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e79ad751-d0b2-45dc-94ce-16cfde14b72b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at -0.0762 -0.0254 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1fcdb616-8f4a-43e9-a74b-0b190675b172")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at -0.0762 -0.0254 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3566c7f3-9924-46e9-8359-ebb97267aff6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at -0.0762 -0.0254 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b25333b8-f49e-4191-bd05-2d3d459f2e6e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
-		(path "/07f6f905-59c0-438f-a556-b28e89ace803/ae731158-e922-4095-9ad0-18fcff4d0416")
-		(sheetname "ControlComputer")
-		(sheetfile "ControlComputer.kicad_sch")
-		(zone_connect 1)
-		(attr exclude_from_pos_files)
-		(pad "1" smd custom
-			(at -0.5334 0)
-			(size 0.3 0.3)
-			(layers "B.Cu" "B.Mask")
-			(net 81 "SWO")
-			(pinfunction "A")
-			(pintype "passive")
-			(zone_connect 2)
-			(thermal_bridge_angle 45)
-			(options
-				(clearance outline)
-				(anchor rect)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0.5334 0) (xy 0.3084 -0.25) (xy -0.3146 -0.25) (xy -0.3146 0.25) (xy 0.3084 0.25)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "28b26de8-15b7-47cb-b243-d4cf3eb7dd78")
-		)
-		(pad "2" smd custom
-			(at 0.381 0)
-			(size 0.3 0.3)
-			(layers "B.Cu" "B.Mask")
-			(net 38 "J2_32")
-			(pinfunction "B")
-			(pintype "passive")
-			(zone_connect 2)
-			(thermal_bridge_angle 45)
-			(options
-				(clearance outline)
-				(anchor rect)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0.2908 -0.25) (xy -0.4314 -0.25) (xy -0.2286 0) (xy -0.4314 0.25) (xy 0.2908 0.25)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "ee1d9e64-73e0-411f-a646-9a5a40e2ac78")
 		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
@@ -27410,135 +27605,6 @@
 			)
 		)
 	)
-	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-		(layer "B.Cu")
-		(uuid "a00a93f6-06a2-49eb-ba7d-fa76cdc054f3")
-		(at 96.9264 122.2502)
-		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
-		(tags "solder jumper open")
-		(property "Reference" "JP2"
-			(at 0 1.8 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "96c186f9-cf2e-443b-9149-5ef700bf796c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "SWDIO"
-			(at 0 -1.9 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c784560b-127e-406e-829f-a16ad05e3d76")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at -0.0762 -0.0254 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "01e29742-7869-44b6-84a9-fc73f9cd5518")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at -0.0762 -0.0254 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "835199dd-041e-4f8f-848f-a0c3e6e04f8d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at -0.0762 -0.0254 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8a7f998c-13b0-49c6-815d-ab23dca729a7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
-		(path "/07f6f905-59c0-438f-a556-b28e89ace803/8d9b2534-d57b-4c21-8683-7021085d4170")
-		(sheetname "ControlComputer")
-		(sheetfile "ControlComputer.kicad_sch")
-		(zone_connect 1)
-		(attr exclude_from_pos_files)
-		(pad "1" smd custom
-			(at -0.5334 0)
-			(size 0.3 0.3)
-			(layers "B.Cu" "B.Mask")
-			(net 82 "SWCLK")
-			(pinfunction "A")
-			(pintype "passive")
-			(zone_connect 2)
-			(thermal_bridge_angle 45)
-			(options
-				(clearance outline)
-				(anchor rect)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0.5334 0) (xy 0.3084 -0.25) (xy -0.3146 -0.25) (xy -0.3146 0.25) (xy 0.3084 0.25)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "13bd02f6-50a8-4ce8-89fc-12638a2a9386")
-		)
-		(pad "2" smd custom
-			(at 0.381 0)
-			(size 0.3 0.3)
-			(layers "B.Cu" "B.Mask")
-			(net 62 "J2_36")
-			(pinfunction "B")
-			(pintype "passive")
-			(zone_connect 2)
-			(thermal_bridge_angle 45)
-			(options
-				(clearance outline)
-				(anchor rect)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0.2908 -0.25) (xy -0.4314 -0.25) (xy -0.2286 0) (xy -0.4314 0.25) (xy 0.2908 0.25)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "7609c107-6f3d-42e7-ac63-419ae5d9ac23")
-		)
-	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "B.Cu")
 		(uuid "a00c966d-8f63-44f2-978b-c43dd1d6c24f")
@@ -29070,135 +29136,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-		(layer "B.Cu")
-		(uuid "ba05edf8-9374-42eb-8516-fa79ae2fd4df")
-		(at 96.9264 120.4722)
-		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
-		(tags "solder jumper open")
-		(property "Reference" "JP4"
-			(at 0.127 0.8382 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "fa09b88e-6dd1-4500-9dba-8d5ae552db32")
-			(effects
-				(font
-					(size 0.5 0.5)
-					(thickness 0.1)
-					(bold yes)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "SWDIO"
-			(at 0 -1.9 0)
-			(layer "B.Fab")
-			(uuid "fc6b0e07-3c27-422b-bea2-97c0cd42504f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at -0.5 -5.75 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "e69b3812-d36d-47c1-8094-9cde7e9b8c75")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "7fd6d009-a404-4785-b2ba-4fa4240b9033")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at -0.5 -5.75 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9980c3b7-292c-4e91-92c0-a64b6b2afe88")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
-		(path "/07f6f905-59c0-438f-a556-b28e89ace803/255a0318-4395-4052-ace6-feddb27dd68a")
-		(sheetname "ControlComputer")
-		(sheetfile "ControlComputer.kicad_sch")
-		(zone_connect 1)
-		(attr exclude_from_pos_files)
-		(pad "1" smd custom
-			(at -0.5334 0)
-			(size 0.3 0.3)
-			(layers "B.Cu" "B.Mask")
-			(net 7 "NRST")
-			(pinfunction "A")
-			(pintype "passive")
-			(zone_connect 2)
-			(thermal_bridge_angle 45)
-			(options
-				(clearance outline)
-				(anchor rect)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0.5334 0) (xy 0.3084 -0.25) (xy -0.3146 -0.25) (xy -0.3146 0.25) (xy 0.3084 0.25)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "d128f8fe-5fde-4897-b7a8-8d12c3f3d435")
-		)
-		(pad "2" smd custom
-			(at 0.381 0)
-			(size 0.3 0.3)
-			(layers "B.Cu" "B.Mask")
-			(net 60 "J2_40")
-			(pinfunction "B")
-			(pintype "passive")
-			(zone_connect 2)
-			(thermal_bridge_angle 45)
-			(options
-				(clearance outline)
-				(anchor rect)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0.2908 -0.25) (xy -0.4314 -0.25) (xy -0.2286 0) (xy -0.4314 0.25) (xy 0.2908 0.25)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "caec6453-029b-449f-856e-622681b3e2bc")
 		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
@@ -32269,134 +32206,6 @@
 			(rotate
 				(xyz 0 0 0)
 			)
-		)
-	)
-	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-		(layer "B.Cu")
-		(uuid "eb283b3f-c946-41f1-98f9-6cd1169fe6d5")
-		(at 96.9264 121.3612)
-		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
-		(tags "solder jumper open")
-		(property "Reference" "JP3"
-			(at 0 1.8 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "a60227cf-6973-42b4-be81-00215f82eec9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "SWDIO"
-			(at 0 -1.9 0)
-			(layer "B.Fab")
-			(uuid "32ea3b86-a27e-4cfb-a1fc-c9622526a1a2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 0 -0.0508 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "abe4be6a-1102-4353-a387-cdab272a177a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 -0.0508 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "13cb3a88-f4be-46bd-b82f-3a2daa2571a0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 0 -0.0508 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "55d4e0f1-f409-4eb8-a21c-7f1e47c15595")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property ki_fp_filters "Jumper* TestPoint*2Pads* TestPoint*Bridge*")
-		(path "/07f6f905-59c0-438f-a556-b28e89ace803/a37e8ef2-0868-4a0e-90dc-4ad424909a7d")
-		(sheetname "ControlComputer")
-		(sheetfile "ControlComputer.kicad_sch")
-		(zone_connect 1)
-		(attr exclude_from_pos_files)
-		(pad "1" smd custom
-			(at -0.5334 0)
-			(size 0.3 0.3)
-			(layers "B.Cu" "B.Mask")
-			(net 83 "SWDIO")
-			(pinfunction "A")
-			(pintype "passive")
-			(zone_connect 2)
-			(thermal_bridge_angle 45)
-			(options
-				(clearance outline)
-				(anchor rect)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0.5334 0) (xy 0.3084 -0.25) (xy -0.3146 -0.25) (xy -0.3146 0.25) (xy 0.3084 0.25)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "e36845e1-097e-4d65-9871-1c747726238c")
-		)
-		(pad "2" smd custom
-			(at 0.381 0)
-			(size 0.3 0.3)
-			(layers "B.Cu" "B.Mask")
-			(net 54 "J2_38")
-			(pinfunction "B")
-			(pintype "passive")
-			(zone_connect 2)
-			(thermal_bridge_angle 45)
-			(options
-				(clearance outline)
-				(anchor rect)
-			)
-			(primitives
-				(gr_poly
-					(pts
-						(xy 0.2908 -0.25) (xy -0.4314 -0.25) (xy -0.2286 0) (xy -0.4314 0.25) (xy 0.2908 0.25)
-					)
-					(width 0)
-					(fill yes)
-				)
-			)
-			(uuid "86625903-715d-43d1-ab57-76ef563e7be4")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
@@ -40587,7 +40396,7 @@
 		)
 	)
 	(gr_text "GPIO"
-		(at 95.17 122.92 90)
+		(at 95.22 122.92 90)
 		(layer "F.SilkS" knockout)
 		(uuid "a4a9005a-7234-4723-9ee1-e7867e340e53")
 		(effects
@@ -40602,29 +40411,29 @@
 		(render_cache "GPIO" 90
 			(polygon
 				(pts
-					(xy 95.034 122.92) (xy 93.896023 122.92) (xy 93.896023 121.789644) (xy 94.189896 121.789644) (xy 94.189896 122.627494)
-					(xy 94.740127 122.627494) (xy 94.740127 122.082149) (xy 94.615074 122.082149) (xy 94.615074 122.500488)
-					(xy 94.321201 122.500488) (xy 94.321201 121.789644) (xy 95.034 121.789644)
+					(xy 95.084 122.92) (xy 93.946023 122.92) (xy 93.946023 121.789644) (xy 94.239896 121.789644) (xy 94.239896 122.627494)
+					(xy 94.790127 122.627494) (xy 94.790127 122.082149) (xy 94.665074 122.082149) (xy 94.665074 122.500488)
+					(xy 94.371201 122.500488) (xy 94.371201 121.789644) (xy 95.084 121.789644)
 				)
 			)
 			(polygon
 				(pts
-					(xy 94.615074 121.39651) (xy 95.034 121.39651) (xy 95.034 121.689016) (xy 93.896023 121.689016)
-					(xy 93.896023 120.851165) (xy 94.189896 120.851165) (xy 94.189896 121.39651) (xy 94.321201 121.39651)
-					(xy 94.321201 120.851165) (xy 94.189896 120.851165) (xy 93.896023 120.851165) (xy 93.896023 120.55866)
-					(xy 94.615074 120.55866)
+					(xy 94.665074 121.39651) (xy 95.084 121.39651) (xy 95.084 121.689016) (xy 93.946023 121.689016)
+					(xy 93.946023 120.851165) (xy 94.239896 120.851165) (xy 94.239896 121.39651) (xy 94.371201 121.39651)
+					(xy 94.371201 120.851165) (xy 94.239896 120.851165) (xy 93.946023 120.851165) (xy 93.946023 120.55866)
+					(xy 94.665074 120.55866)
 				)
 			)
 			(polygon
 				(pts
-					(xy 95.034 120.458032) (xy 93.896023 120.458032) (xy 93.896023 120.165526) (xy 95.034 120.165526)
+					(xy 95.084 120.458032) (xy 93.946023 120.458032) (xy 93.946023 120.165526) (xy 95.084 120.165526)
 				)
 			)
 			(polygon
 				(pts
-					(xy 95.034 120.066461) (xy 93.896023 120.066461) (xy 93.896023 119.228611) (xy 94.189896 119.228611)
-					(xy 94.189896 119.773956) (xy 94.740127 119.773956) (xy 94.740127 119.228611) (xy 94.189896 119.228611)
-					(xy 93.896023 119.228611) (xy 93.896023 118.936106) (xy 95.034 118.936106)
+					(xy 95.084 120.066461) (xy 93.946023 120.066461) (xy 93.946023 119.228611) (xy 94.239896 119.228611)
+					(xy 94.239896 119.773956) (xy 94.790127 119.773956) (xy 94.790127 119.228611) (xy 94.239896 119.228611)
+					(xy 93.946023 119.228611) (xy 93.946023 118.936106) (xy 95.084 118.936106)
 				)
 			)
 		)
@@ -40733,14 +40542,6 @@
 		(uuid "07ffda40-74c5-4908-b804-d643daf78a6f")
 	)
 	(segment
-		(start 103.209 154.266)
-		(end 103.492 154.549)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "0bc88bf9-9318-4174-be83-266d47d4e6d4")
-	)
-	(segment
 		(start 101.0012 150.578)
 		(end 101.0012 150.158)
 		(width 0.25)
@@ -40771,6 +40572,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "138b5cb3-1c9f-4ae8-b190-a490587e4dad")
+	)
+	(segment
+		(start 103.2215 154.2535)
+		(end 103.2215 154.2785)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "13d6f24e-5672-4d54-87a2-d1bc06d7bfe7")
 	)
 	(segment
 		(start 100.03 126.495001)
@@ -40853,12 +40662,12 @@
 		(uuid "29a28559-1713-438a-b14f-afea15711497")
 	)
 	(segment
-		(start 103.492 153.983)
-		(end 103.209 154.266)
+		(start 103.492 154.549)
+		(end 103.2215 154.2785)
 		(width 0.15)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "2c921bf9-cb5f-49e9-b3ae-1a29b91e13eb")
+		(uuid "2b057c7d-fbd3-4872-bd28-42c8aa94e35a")
 	)
 	(segment
 		(start 102.69 154.28)
@@ -41045,6 +40854,14 @@
 		(uuid "8886c68a-da9a-42d7-ae2e-cbd9cc67d546")
 	)
 	(segment
+		(start 103.492 153.983)
+		(end 103.2215 154.2535)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "8a23db04-65b0-4196-a406-fcd37e571328")
+	)
+	(segment
 		(start 101.767 129.032)
 		(end 101.767 128.232001)
 		(width 0.25)
@@ -41107,6 +40924,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "cc419944-82a7-46ff-ba92-ea2a6cd4b20d")
+	)
+	(segment
+		(start 103.2215 154.2785)
+		(end 103.209 154.266)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "cc5352eb-60f0-455a-9942-d8ab4fe33774")
 	)
 	(segment
 		(start 112.767 145.657)
@@ -48659,12 +48484,12 @@
 		(uuid "e5ee9232-83d1-4367-9f3b-d82b1ff59141")
 	)
 	(segment
-		(start 97.3074 120.4722)
-		(end 98.13 120.4722)
+		(start 98.13 120.4722)
+		(end 97.3049 120.4722)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 60)
-		(uuid "024f9281-a2a4-4bc3-be80-1efa66ab59b9")
+		(uuid "0abafbef-ed4a-4984-851f-d5ca32e95c12")
 	)
 	(segment
 		(start 98.13 120.4722)
@@ -48681,6 +48506,22 @@
 		(layer "B.Cu")
 		(net 60)
 		(uuid "4e42de48-33df-49fd-a7c9-42bfda02727c")
+	)
+	(segment
+		(start 97.3049 120.4722)
+		(end 97.2691 120.508)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 60)
+		(uuid "86b89533-f0ee-4863-9b10-358dcc2b9454")
+	)
+	(segment
+		(start 98.1022 120.5)
+		(end 98.13 120.4722)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 60)
+		(uuid "90ea1b15-d6cd-4ffd-ad9e-66748cf6bc7b")
 	)
 	(segment
 		(start 114.942 142.707)
@@ -57063,7 +56904,7 @@
 				(xy 123.815317 122.918554) (xy 123.582252 122.569748) (xy 123.560376 122.555131) (xy 123.233446 122.336683)
 				(xy 122.822 122.254841) (xy 122.410553 122.336683) (xy 122.061748 122.569747) (xy 122.061747 122.569748)
 				(xy 121.828683 122.918553) (xy 121.746841 123.33) (xy 116.67248 123.33) (xy 116.9591 123.04338)
-				(xy 116.9591 122.088263) (xy 116.713415 121.842578) (xy 116.697374 121.81857) (xy 116.688102 121.796186)
+				(xy 116.9591 122.088263) (xy 116.713415 121.842578) (xy 116.697374 121.81857) (xy 116.689229 121.798907)
 				(xy 116.563832 121.496168) (xy 116.563831 121.496167) (xy 116.1999 121.345423) (xy 116.016811 121.42126)
 				(xy 115.960174 121.42126) (xy 115.928861 121.389947) (xy 115.926059 121.39182) (xy 115.895057 121.345423)
 				(xy 115.805864 121.211936) (xy 115.804842 121.211253) (xy 115.785386 121.198252) (xy 115.753921 121.151159)
@@ -58431,12 +58272,13 @@
 				(xy 96.802458 126.102853) (xy 97 126.184677) (xy 97.258752 126.077498) (xy 97.31539 126.077498)
 				(xy 97.55 126.174677) (xy 97.913932 126.023932) (xy 98.064677 125.66) (xy 98.035093 125.588578)
 				(xy 97.956133 125.39795) (xy 97.9505 125.369632) (xy 97.9505 125.037049) (xy 97.705486 124.792035)
-				(xy 97.705483 124.792033) (xy 96.829476 123.916026) (xy 96.807802 123.8637) (xy 96.829476 123.811374)
-				(xy 96.881802 123.7897) (xy 97.598198 123.7897) (xy 97.5982 123.7897) (xy 97.881396 123.672396)
-				(xy 97.900425 123.626454) (xy 97.940473 123.586406) (xy 97.99711 123.586406) (xy 98.16 123.653877)
-				(xy 98.276628 123.605568) (xy 98.333262 123.605568) (xy 98.373311 123.645616) (xy 98.384403 123.672395)
-				(xy 98.384404 123.672396) (xy 98.6676 123.7897) (xy 98.667601 123.7897) (xy 99.39612 123.7897) (xy 99.39612 123.792746)
-				(xy 99.440971 123.802866) (xy 99.471223 123.850746) (xy 99.4723 123.863324) (xy 99.4723 124.518356)
+				(xy 97.705483 124.792033) (xy 96.772118 123.858668) (xy 96.750444 123.806342) (xy 96.772118 123.754016)
+				(xy 96.824444 123.732342) (xy 96.852761 123.737974) (xy 96.883 123.7505) (xy 96.883001 123.7505)
+				(xy 97.605198 123.7505) (xy 97.6052 123.7505) (xy 97.888396 123.633196) (xy 97.89254 123.623189)
+				(xy 97.932586 123.583141) (xy 97.989223 123.583139) (xy 98.16 123.653877) (xy 98.246325 123.61812)
+				(xy 98.302961 123.61812) (xy 98.324742 123.632673) (xy 98.326003 123.633195) (xy 98.326004 123.633196)
+				(xy 98.6092 123.7505) (xy 98.609201 123.7505) (xy 99.331398 123.7505) (xy 99.3314 123.7505) (xy 99.373567 123.735547)
+				(xy 99.430128 123.738485) (xy 99.468044 123.780558) (xy 99.4723 123.805291) (xy 99.4723 124.518356)
 				(xy 99.466667 124.546674) (xy 99.375323 124.767199) (xy 99.375323 124.7672) (xy 99.526067 125.131131)
 				(xy 99.526068 125.131132) (xy 99.89 125.281877) (xy 100.253932 125.131132) (xy 100.321504 124.967999)
 				(xy 104.97989 124.967999) (xy 104.97989 124.968) (xy 105.130634 125.331931) (xy 105.130635 125.331932)
@@ -58492,8 +58334,8 @@
 				(xy 106.31 124.453323) (xy 105.932468 124.609701) (xy 105.930699 124.60543) (xy 105.902263 124.6172)
 				(xy 105.873866 124.605433) (xy 105.872099 124.609701) (xy 105.494567 124.453323) (xy 105.130635 124.604067)
 				(xy 105.130634 124.604068) (xy 104.97989 124.967999) (xy 100.321504 124.967999) (xy 100.404677 124.7672)
-				(xy 100.37847 124.703931) (xy 100.278933 124.463625) (xy 100.2733 124.435307) (xy 100.2733 123.803563)
-				(xy 100.294974 123.751237) (xy 100.318982 123.735196) (xy 100.470596 123.672396) (xy 100.537863 123.509999)
+				(xy 100.37847 124.703931) (xy 100.278933 124.463625) (xy 100.2733 124.435307) (xy 100.2733 123.740173)
+				(xy 100.294974 123.687847) (xy 100.318982 123.671806) (xy 100.412196 123.633196) (xy 100.463226 123.509999)
 				(xy 103.94239 123.509999) (xy 103.94239 123.51) (xy 104.093134 123.873931) (xy 104.093135 123.873932)
 				(xy 104.457067 124.024677) (xy 104.509885 124.002799) (xy 107.514143 124.002799) (xy 107.514143 124.0028)
 				(xy 107.688664 124.424134) (xy 107.688665 124.424135) (xy 108.11 124.598657) (xy 108.531335 124.424135)
@@ -58501,9 +58343,9 @@
 				(xy 108.11 123.406943) (xy 107.688665 123.581464) (xy 107.688664 123.581465) (xy 107.514143 124.002799)
 				(xy 104.509885 124.002799) (xy 104.820999 123.873932) (xy 104.971744 123.51) (xy 104.970804 123.507731)
 				(xy 104.820999 123.146068) (xy 104.820998 123.146067) (xy 104.457067 122.995323) (xy 104.093135 123.146067)
-				(xy 104.093134 123.146068) (xy 103.94239 123.509999) (xy 100.537863 123.509999) (xy 100.5879 123.3892)
-				(xy 100.5879 122.8892) (xy 100.519065 122.723018) (xy 100.519065 122.666381) (xy 100.521828 122.65971)
-				(xy 100.5879 122.5002) (xy 100.5879 122.168369) (xy 100.609574 122.116043) (xy 100.617243 122.108374)
+				(xy 104.093134 123.146068) (xy 103.94239 123.509999) (xy 100.463226 123.509999) (xy 100.5295 123.35)
+				(xy 100.5295 122.85) (xy 100.483363 122.738617) (xy 100.483363 122.68198) (xy 100.487082 122.673002)
+				(xy 100.5604 122.496) (xy 100.5604 122.195869) (xy 100.582074 122.143543) (xy 100.617243 122.108374)
 				(xy 100.669569 122.0867) (xy 102.144336 122.0867) (xy 102.144337 122.0867) (xy 102.95064 121.280395)
 				(xy 103.002965 121.258722) (xy 103.055291 121.280396) (xy 103.071332 121.304403) (xy 103.089899 121.349227)
 				(xy 103.109621 121.39684) (xy 103.114552 121.408743) (xy 103.114552 121.46538) (xy 102.990323 121.765299)
@@ -58531,7 +58373,7 @@
 				(xy 109.75588 121.733747) (xy 109.803238 121.753363) (xy 109.843287 121.793411) (xy 109.902803 121.937095)
 				(xy 109.993929 122.157093) (xy 110.250565 122.263394) (xy 110.290614 122.303442) (xy 110.314263 122.360535)
 				(xy 110.394868 122.555132) (xy 110.7588 122.705877) (xy 111.122732 122.555132) (xy 111.273477 122.1912)
-				(xy 111.26402 122.168369) (xy 111.122732 121.827268) (xy 110.866093 121.720964) (xy 110.826045 121.680916)
+				(xy 111.259349 122.157093) (xy 111.122732 121.827268) (xy 110.866093 121.720964) (xy 110.826045 121.680916)
 				(xy 110.767301 121.539095) (xy 110.721793 121.429229) (xy 110.721792 121.429228) (xy 110.711385 121.418821)
 				(xy 110.713775 121.41643) (xy 110.689904 121.392555) (xy 110.689908 121.335918) (xy 110.702842 121.316563)
 				(xy 110.726801 121.258722) (xy 110.854677 120.95) (xy 110.853081 120.946148) (xy 110.703932 120.586068)
@@ -58591,17 +58433,17 @@
 				(xy 101.927647 118.579529) (xy 101.816794 118.847156) (xy 101.816794 118.847157) (xy 101.928825 119.117627)
 				(xy 101.928825 119.174263) (xy 101.880853 119.290079) (xy 101.835323 119.4) (xy 101.967536 119.719192)
 				(xy 101.968867 119.722404) (xy 101.9745 119.750723) (xy 101.9745 120.173862) (xy 101.952826 120.226188)
-				(xy 101.564989 120.614026) (xy 101.512663 120.6357) (xy 100.669569 120.6357) (xy 100.617243 120.614026)
-				(xy 100.609574 120.606357) (xy 100.5879 120.554031) (xy 100.5879 120.2222) (xy 100.470596 119.939004)
-				(xy 100.1874 119.8217) (xy 99.5644 119.8217) (xy 99.564384 119.8217) (xy 99.543351 119.822253) (xy 99.543348 119.822254)
-				(xy 99.502367 119.841812) (xy 99.445808 119.844789) (xy 99.442177 119.843395) (xy 99.3898 119.8217)
-				(xy 98.6676 119.8217) (xy 98.526002 119.880352) (xy 98.384403 119.939004) (xy 98.368918 119.976389)
-				(xy 98.328869 120.016437) (xy 98.272233 120.016437) (xy 98.130001 119.957523) (xy 98.129999 119.957523)
-				(xy 97.992716 120.014386) (xy 97.936079 120.014386) (xy 97.896031 119.974337) (xy 97.89214 119.964944)
-				(xy 97.881396 119.939004) (xy 97.881395 119.939003) (xy 97.715503 119.870288) (xy 97.5982 119.8217)
-				(xy 96.876 119.8217) (xy 96.875997 119.8217) (xy 96.875996 119.821701) (xy 96.808719 119.845557)
-				(xy 96.75567 119.844179) (xy 96.7014 119.8217) (xy 96.0784 119.8217) (xy 95.795204 119.939004) (xy 95.762664 120.017563)
-				(xy 95.759161 120.026019) (xy 95.719112 120.066067) (xy 95.690794 120.0717) (xy 95.161907 120.0717)
+				(xy 101.564989 120.614026) (xy 101.512663 120.6357) (xy 100.6891 120.6357) (xy 100.636774 120.614026)
+				(xy 100.6151 120.5617) (xy 100.6151 120.25) (xy 100.594924 120.201291) (xy 100.497796 119.966804)
+				(xy 100.2146 119.8495) (xy 99.5916 119.8495) (xy 99.591584 119.8495) (xy 99.570551 119.850053) (xy 99.570548 119.850054)
+				(xy 99.529567 119.869612) (xy 99.473008 119.872589) (xy 99.469377 119.871195) (xy 99.417 119.8495)
+				(xy 98.6948 119.8495) (xy 98.611976 119.883807) (xy 98.411603 119.966804) (xy 98.411602 119.966805)
+				(xy 98.401962 119.990078) (xy 98.361913 120.030126) (xy 98.305278 120.030125) (xy 98.13 119.957523)
+				(xy 98.129999 119.957523) (xy 97.947368 120.03317) (xy 97.890731 120.03317) (xy 97.850683 119.993121)
+				(xy 97.850485 119.992644) (xy 97.843096 119.974804) (xy 97.5599 119.8575) (xy 96.8377 119.8575)
+				(xy 96.837697 119.8575) (xy 96.837696 119.857501) (xy 96.770419 119.881357) (xy 96.71737 119.879979)
+				(xy 96.6631 119.8575) (xy 96.0401 119.8575) (xy 95.756904 119.974804) (xy 95.739193 120.017563)
+				(xy 95.73569 120.026019) (xy 95.695641 120.066067) (xy 95.667323 120.0717) (xy 95.161907 120.0717)
 				(xy 94.1495 121.084107) (xy 94.1495 123.796794) (xy 94.127826 123.84912) (xy 94.103819 123.865161)
 				(xy 93.836067 123.976068) (xy 93.685323 124.339999) (xy 92.394035 124.339999) (xy 92.727103 124.273748)
 				(xy 93.107665 124.019465) (xy 93.361948 123.638903) (xy 93.45124 123.19) (xy 93.361948 122.741097)
@@ -59914,13 +59756,6 @@
 		)
 	)
 	(group ""
-		(uuid "152b9d98-19aa-49aa-877f-a6cce5c353ba")
-		(members "4dc7eff5-7650-424f-840f-489a0434f46c" "58568b1f-a7dd-4a81-a9c0-594d01c63d71"
-			"6dabe07e-2258-4239-85cc-c95e10a836f9" "a8226849-9c95-4364-8ea7-6fefac58a11f"
-			"d883b1c0-b76f-4d91-8023-f6c8fa48d656" "ea0e7b4d-8ebd-405d-bb38-6e5b7cff053c"
-		)
-	)
-	(group ""
 		(uuid "99f71c5d-061e-4697-97fd-527503e2122c")
 		(members "0cebdb7b-d362-4881-a02a-0a455c29ec41" "5f1f8fd5-476e-4b02-888b-009d65f2eda4"
 			"89192f7c-320a-463d-960b-b08c9d895d90" "bb234397-1c8e-4c2c-9a9a-a2d2a32d86cb"
@@ -59931,14 +59766,6 @@
 		(uuid "288d64dd-5a6d-409c-9906-b4f5183241ad")
 		(members "60d333cb-5ca4-4808-b7b8-cac31b75c2f4" "c2f4cdea-81f5-40b5-b310-147b3f1a44c5"
 			"c709d4f0-722c-4b3d-aeb0-a9a6651cc8d3"
-		)
-	)
-	(group ""
-		(uuid "cb8844e9-021c-4435-9d9a-93e95f4a9a74")
-		(members "1d574cbf-e98b-4c32-af3c-6f4d955ee66c" "34abd3ba-885d-4066-8676-83b326a2bcf9"
-			"49c71a3c-53ad-455b-94dc-af5974e8d174" "7a089cdd-2e66-4381-9c40-f1c516b3befd"
-			"82eebaa4-e98d-4bd1-b890-e72f535ae072" "a00a93f6-06a2-49eb-ba7d-fa76cdc054f3"
-			"ba05edf8-9374-42eb-8516-fa79ae2fd4df" "eb283b3f-c946-41f1-98f9-6cd1169fe6d5"
 		)
 	)
 	(group ""

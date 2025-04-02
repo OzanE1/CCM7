@@ -196,7 +196,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+		(property "Footprint" "MountingHole:CCMountingHole"
 			(at 157.48 35.56 0)
 			(effects
 				(font
@@ -260,7 +260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+		(property "Footprint" "MountingHole:CCMountingHole"
 			(at 157.48 30.48 0)
 			(effects
 				(font
@@ -324,7 +324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+		(property "Footprint" "MountingHole:CCMountingHole"
 			(at 157.48 40.64 0)
 			(effects
 				(font
@@ -388,7 +388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+		(property "Footprint" "MountingHole:CCMountingHole"
 			(at 157.48 45.72 0)
 			(effects
 				(font
@@ -452,7 +452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+		(property "Footprint" "MountingHole:CCMountingHole"
 			(at 157.48 50.8 0)
 			(effects
 				(font
@@ -516,7 +516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad"
+		(property "Footprint" "MountingHole:CCMountingHole"
 			(at 157.48 25.4 0)
 			(effects
 				(font

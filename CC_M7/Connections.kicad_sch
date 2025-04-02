@@ -4702,7 +4702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "MountingHole:1x03_2.54vertical"
 			(at 123.19 71.12 0)
 			(effects
 				(font
@@ -5217,7 +5217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "MountingHole:1x03_2.54vertical"
 			(at 163.83 29.21 0)
 			(effects
 				(font
@@ -5354,7 +5354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "MountingHole:1x03_2.54vertical"
 			(at 123.19 50.8 0)
 			(effects
 				(font
@@ -6098,7 +6098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "MountingHole:1x03_2.54vertical"
 			(at 163.83 71.12 0)
 			(effects
 				(font
@@ -6366,7 +6366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "MountingHole:1x03_2.54vertical"
 			(at 123.19 29.21 0)
 			(effects
 				(font
@@ -6907,7 +6907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "MountingHole:1x03_2.54vertical"
 			(at 163.83 50.8 0)
 			(effects
 				(font

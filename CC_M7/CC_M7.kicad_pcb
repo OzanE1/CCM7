@@ -1294,6 +1294,17 @@
 			(solder_mask_margin 0.102)
 			(uuid "1d93b1f6-4743-4a2d-874b-88875d6b2d50")
 		)
+		(model "C:/Users/Acer/Desktop/YUSUF/Yeniay/Projects/CCM7/Modules/MBR230LSFT1G/MBR230LSFT1G.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
 	)
 	(footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 		(layer "F.Cu")
@@ -6428,7 +6439,6 @@
 			(uuid "22429291-7c98-41b6-85bb-df1d83dce487")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
-			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7277,6 +7287,17 @@
 			(uuid "1d6f69e9-262c-4515-a9ab-23f30822b410")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Changjiang_FXL0650.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/Acer/Desktop/YUSUF/Yeniay/Projects/CCM7/Modules/74437349033/WE-LHMI_7050LHMI+%28rev1%29.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11861,7 +11882,6 @@
 			(uuid "d300e897-95cc-4a5c-b73e-4b978758c4b8")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
-			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12091,6 +12111,17 @@
 			(pinfunction "FB")
 			(pintype "output")
 			(uuid "4eb16cf3-4a5d-41ea-a26c-40ce694e0b85")
+		)
+		(model "C:/Users/Acer/Desktop/YUSUF/Yeniay/Projects/CCM7/Modules/TPS562246DRLR/DRL0006A.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "MountingHole:CCMountingHole"
@@ -16555,6 +16586,17 @@
 			(pintype "power_in")
 			(solder_mask_margin 0.102)
 			(uuid "ede79995-822f-4637-a226-2f14b53ddfd5")
+		)
+		(model "C:/Users/Acer/Desktop/YUSUF/Yeniay/Projects/CCM7/Modules/NRF/nRF21540/QFN16_4X4_NOR.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
